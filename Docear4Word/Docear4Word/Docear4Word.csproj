@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A7FBE7D7-DB43-4793-8A69-D5A15B7DBAC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Docear4Word</RootNamespace>
+    <AssemblyName>Docear4Word</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <StartupObject>
+    </StartupObject>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>docear4word.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="AddinExpress.MSO.2005, Version=8.0.4330.0, Culture=neutral, PublicKeyToken=4416dd98f0861965, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Add-in Express 2010\AddinExpress.MSO.2005.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqBridge">
+      <HintPath>.\LinqBridge.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Extensibility, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Interop.VBIDE.dll">
+      <HintPath>Interops\Interop.VBIDE.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Interop.Office.dll">
+      <HintPath>Interops\Interop.Office.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Interop.Word.dll">
+      <HintPath>Interops\Interop.Word.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImageResources\AddFromDocear.png" />
+    <Content Include="JavaScript\JSRunner.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_Changes.txt" />
+    <Content Include="_DevNotes.txt" />
+    <Content Include="_Notes.txt" />
+    <Content Include="_Todo.txt" />
+    <None Include="Loader\adxloader.dll.manifest" />
+    <None Include="Properties\DataSources\SelectableReference.datasource" />
+    <!--<None Include="docear4word.snk" /> -->
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImageResources\CreateBibliographySmall.png" />
+    <None Include="ImageResources\EditReferenceSmall.png" />
+    <None Include="ImageResources\LogoLarge.png" />
+    <None Include="ImageResources\LogoSmall.png" />
+    <None Include="ImageResources\LogoTiny.png" />
+    <None Include="ImageResources\RefreshSmall.png" />
+    <None Include="ImageResources\StatusBarSmall.png" />
+    <None Include="ImageResources\AboutSmall.png" />
+    <None Include="ImageResources\AddReferenceSmall.png" />
+    <None Include="ImageResources\BibTexSettingsSmall.png" />
+    <None Include="ImageResources\Logo.ico" />
+    <None Include="ImageResources\LogoVeryTiny.png" />
+    <Content Include="ImageResources\MoveNextSmall.png" />
+    <Content Include="ImageResources\MovePreviousSmall.png" />
+    <Content Include="JavaScript\citeproc.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JavaScript\JSON.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JavaScript\Sys.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JavaScript\xmldom.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="licence.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Loader\adxloader.dll" />
+    <Content Include="Loader\adxloader64.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddinModule.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BibTeXParser\BibTeXDatabase.cs" />
+    <Compile Include="BibTeXParser\Entry.cs" />
+    <Compile Include="BibTeXParser\BibTexLexer.cs" />
+    <Compile Include="BibTeXParser\BibTexParser.cs" />
+    <Compile Include="BibTeXParser\TagEntry.cs" />
+    <Compile Include="CodeAnnotations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocumentControllerCitationInserter.cs" />
+    <Compile Include="Formatters\BibliographyRangeFormatter.cs" />
+    <Compile Include="Forms\DialogFooter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DialogFooter.Designer.cs">
+      <DependentUpon>DialogFooter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HeaderCheckBoxHandler.cs" />
+    <Compile Include="Helpers\AccessibleHelper.cs" />
+    <Compile Include="Helpers\BibtexClassificationType.cs" />
+    <Compile Include="Helpers\BibTexToCSLConverter.cs" />
+    <Compile Include="Helpers\DocumentHelper.cs" />
+    <Compile Include="Helpers\HtmlHelper.cs" />
+    <Compile Include="Helpers\OSVersionInfo.cs" />
+    <Compile Include="Helpers\PageRangeParser.cs" />
+    <Compile Include="Helpers\RegistryHelper.cs" />
+    <Compile Include="Names\BibTexNames.cs" />
+    <Compile Include="Names\CSLCategories.cs" />
+    <Compile Include="Names\CSLNames.cs" />
+    <Compile Include="Names\CSLTypes.cs" />
+    <Compile Include="SelectionManager.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="StyleInfo.cs" />
+    <Compile Include="ICitationItemResolver.cs" />
+    <Compile Include="Formatters\RangeFormatter.cs" />
+    <Compile Include="__Interop\EntryAndPagePair.cs" />
+    <Compile Include="__Interop\BibliographyResult.cs" />
+    <Compile Include="CiteProcRunner.cs" />
+    <Compile Include="DocumentController.cs" />
+    <Compile Include="Helpers\DebugHelper.cs" />
+    <Compile Include="Helpers\WordHelper.cs" />
+    <Compile Include="MainController.cs" />
+    <Compile Include="Forms\BindingListAce.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\SelectableReference.cs" />
+    <Compile Include="Forms\AddReferencesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddReferencesForm.Designer.cs">
+      <DependentUpon>AddReferencesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\ImageHelper.cs" />
+    <Compile Include="Forms\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\LatexMiniParser.cs" />
+    <Compile Include="Helpers\SymbolHelper.cs" />
+    <Compile Include="Helpers\BibTexHelper.cs" />
+    <Compile Include="Helpers\FolderHelper.cs" />
+    <Compile Include="Helpers\Helper.cs" />
+    <Compile Include="Helpers\JSONHelper.cs" />
+    <Compile Include="Helpers\NameSplitter.cs" />
+    <Compile Include="Helpers\StyleHelper.cs" />
+    <Compile Include="JavaScriptRunner.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Images.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="__Interop\JSDateVariable.cs" />
+    <Compile Include="__Interop\JSInlineCitation.cs" />
+    <Compile Include="__Interop\JSInlineCitationItem.cs" />
+    <Compile Include="__Interop\JSInlineCitationProperties.cs" />
+    <Compile Include="__Interop\JSNameVariable.cs" />
+    <Compile Include="__Interop\JSRawCitationItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddinModule.resx">
+      <DependentUpon>AddinModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddReferencesForm.resx">
+      <DependentUpon>AddReferencesForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DialogFooter.resx">
+      <DependentUpon>DialogFooter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JavaScriptIntegration\JavaScriptIntegration.csproj">
+      <Project>{36B24807-AA25-4CC8-9956-B6E8D05A4E7E}</Project>
+      <Name>JavaScriptIntegration</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

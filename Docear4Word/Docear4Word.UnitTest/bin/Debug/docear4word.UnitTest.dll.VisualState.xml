@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1070]C:\Users\Allen\Docear4Word\Docear4Word\Docear4Word.UnitTest\bin\Debug\docear4word.UnitTest.dll</TopNode>
+  <SelectedNode>[0-1001]docear4word.UnitTest.HelperTest.TestDialog</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1070]C:\Users\Allen\Docear4Word\Docear4Word\Docear4Word.UnitTest\bin\Debug\docear4word.UnitTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1071]docear4word" Expanded="true" />
+    <Node UniqueName="[0-1072]docear4word.UnitTest" Expanded="true" />
+    <Node UniqueName="[0-1000]docear4word.UnitTest.HelperTest" Expanded="true" />
+    <Node UniqueName="[0-1073]docear4word.UnitTest.StyleTests" Expanded="true" />
+  </Nodes>
+</VisualState>

@@ -1,0 +1,1298 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AddinExpress.PP.2005</name>
+    </assembly>
+    <members>
+        <member name="T:AddinExpress.PP.ADXRegionBorderStyle">
+            <summary>Specifies the border style for a region.</summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXRegionState">
+            <summary>The default states of the region to which the forms created by the
+            current collection item will be embedded.</summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXOutlookVersion">
+            <summary>Outlook versions.</summary>
+        </member>
+        <member name="T:AddinExpress.PP.EmbeddedFormStates">
+            <summary>The state of an ADXPowerPointTaskPane.</summary>
+            <remarks>An instance of the ADXPowerPointTaskPane can be in one of three states determined
+            by the Active and Visible properties of the instance. When on top of the set of
+            ADXPowerPointTaskPane instances in a given layout, the Active property of the instance is
+            True. This state is called Active. When not on top of the set of ADXPowerPointTaskPane
+            instances in the layout, the Active property of the instance is False. This
+            state is called Visible. When not in any layout, the Visible property is
+            False.</remarks>
+        </member>
+        <member name="F:AddinExpress.PP.EmbeddedFormStates.Visible">
+            <summary>The ADXPowerPointTaskPane is not on top of the set of instances in a
+            layout.</summary>
+        </member>
+        <member name="F:AddinExpress.PP.EmbeddedFormStates.Active">
+            <summary>The ADXPowerPointTaskPane is on top of the set of instances in a layout.</summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXOlReadingPaneLayout">
+            <summary>Reading Pane layouts.</summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXOlExplorerItemTypes">
+            <summary>
+            Outlook item types for which an ADXOlForm can be shown.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXOlInspectorItemTypes">
+            <summary>
+            Outlook item types for which an ADXOlForm can be shown.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXOlInspectorMode">
+            <summary>
+            Outlook item types for which an ADXOlForm can be shown.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXOlExplorerLayout">
+            <summary>Regions available for embedding an ADXOlForm into explorer
+            windows.</summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.Unknown">
+            <summary>
+            The form will not be shown.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.TopSubpane">
+            <summary>
+            At the top of the list of messages, tasks, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.BottomSubpane">
+            <summary>
+            At the bottom of the list of messages, tasks, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.RightSubpane">
+            <summary>
+            To the right of the list of messages, tasks, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.WebViewPane">
+            <summary>
+            The form will be shown as the folder home page.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.LeftSubpane">
+            <summary>
+            To the left of the list of messages, tasks, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.BottomOutlookBar">
+            <summary>At the bottom of the Outlook Bar in Outlook 2000 and 2002.</summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.BottomNavigationPane">
+            <summary>At the bottom of the Navigation Pane in Outlook 2003, 2007 and 2010.</summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.BottomTodoBar">
+            <summary>At the bottom of the To-Do Bar in Outlook 2007 and 2010.</summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.TopReadingPane">
+            <summary>
+            At the top of the Reading Pane's content
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.BottomReadingPane">
+            <summary>
+            At the bottom of the Reading Pane's content 
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.LeftReadingPane">
+            <summary>
+            To the left of the Reading Pane's content
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.RightReadingPane">
+            <summary>
+            To the right of the Reading Pane's content
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.ReadingPane">
+            <summary>
+            The form will be shown below the Reading Pane's content. This will also show a header allowing the end-user to switch between the form and the Reading Pane's content.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlExplorerLayout.FolderView">
+            <summary>
+            The form will be shown below the Reading Pane's content. This will also show a header allowing the end-user to switch between the form and the Reading Pane's content.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXOlSplitterBehavior">
+            <summary>Splitter behavior.</summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlSplitterBehavior.None">
+            <summary>The user is unable to resize the form. The developer is able to resize the
+            form programmatically.</summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlSplitterBehavior.Standard">
+            <summary>The user is able to resize, show, or hide the form. The developer is
+            unable to resize the form programmatically.</summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXOlInspectorLayout">
+            <summary>Regions available for embedding an ADXOlForm into inspector
+            windows.</summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlInspectorLayout.Unknown">
+            <summary>
+            The form will not be shown.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlInspectorLayout.TopSubpane">
+            <summary>
+            At the top of the body of the message, task, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlInspectorLayout.BottomSubpane">
+            <summary>
+            At the bottom of the body of the message, task, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlInspectorLayout.RightSubpane">
+            <summary>
+            In the right part of the body of the message, task, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlInspectorLayout.LeftSubpane">
+            <summary>
+            In the left part of the body of the message, task, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlInspectorLayout.InspectorRegion">
+            <summary>
+            Underneath the body of the message, task, etc. This will also show a header allowing the end-user to switch between the form and the message itself.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXOlCachingStrategy">
+            <summary>Caching strategies when an ADXOlFom is embedded into an explorer
+            window.</summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlCachingStrategy.None">
+            <summary>A new instance of the ADXOlForm will be
+            created whenever the user switches between
+            folders.</summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlCachingStrategy.NewInstanceForEachFolder">
+            <summary>While in the same
+            explorer window, the same instance of the ADXOlForm will be shown whenever the
+            user navigates to the same folder.</summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXOlCachingStrategy.OneInstanceForAllFolders">
+            <summary>While in the same
+            explorer window, the same instance of the ADXOlForm will be shown for every
+            folder from the folder set that the FolderName(s), ExplorerMessgageClass(es),
+            and ExplorerItemTypes properties
+            constitute.</summary>
+        </member>
+        <member name="T:AddinExpress.PP.SupportedInVisualDesignerAttribute">
+            <summary> 
+            This class supports the Add-in Express infrastructure and is not intended to be used directly from your code.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.PP.SupportedInVisualDesignerAttribute.#ctor">
+            <summary>
+            Initializes an instance of the class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.PP.SupportedInVisualDesignerAttribute.#ctor(System.Boolean)">
+            <summary> 
+            This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.
+            </summary>
+            <param name="visible">Determines whether a property will show up in the Add-in Express designer list.</param>
+        </member>
+        <member name="P:AddinExpress.PP.SupportedInVisualDesignerAttribute.Visible">
+            <summary> 
+            This property supports the Add-in Express infrastructure and is not intended to be used directly from your code.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.ADXErrorForm">
+            <summary>
+            Summary description for ADXErrorForm.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.ADXErrorForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXErrorForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXErrorForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.ADXForm">
+            <summary> The base class for a form embeddable into windows of the host
+            applications which are supported by the Add-in Express Extensions product
+            line.</summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.ADXForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.#ctor">
+            <summary>
+            Initializes an instance of the class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.Show">
+            <summary>
+            This method should be overridden by the descendants of the class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.Activate">
+            <summary>
+            Places the form on top of the set of ADXForm instances in the current layout.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.Hide">
+            <summary>
+            Hides the form.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.Highlight">
+            <summary>
+            Flashes the specified instance of the form. It does not change the active state of the form.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.Text">
+            <summary>
+            Gets or sets the text associated with this form.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.Icon">
+            <summary>
+            Gets or sets the icon for the form.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.Visible">
+            <summary>
+            Gets or sets a value indicating whether the form is embedded.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.TransparencyKey">
+            <summary>
+            This property is not supported. 
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.Opacity">
+            <summary>
+            This property is not supported. 
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.AutoSize">
+            <summary>
+            Returns false. You cannot set this property.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.FormBorderStyle">
+            <summary>
+            Gets or sets the border style of the form.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.Active">
+            <summary>
+            Gets a boolean value indicating whether the form is on top of the set of ADXForm instances in the current layout.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.Extensions.ADXForm.Activated">
+            <summary>
+            Occurs when the form becomes placed on top of the set of ADXForm instances in the current layout.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.Extensions.ADXForm.Deactivate">
+            <summary>
+            Occurs when the form is moved from the top of the set of ADXForm instances in the current layout.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.ADXIntResource">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.#ctor">
+            <summary>
+            Initializes a new instance of the ADXIntResource class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.Renewal(System.Runtime.Remoting.Lifetime.ILease)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="lease">In the current version, this parameter is ignored.</param>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.GetInstance">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.Register">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.Unregister">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.LoadAssembly(System.AppDomain@)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="newDomain">The AppDomain instance that will be set.</param>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.AssemblyResolveEventHandler(System.Object,System.ResolveEventArgs)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="sender">In the current version, this parameter is ignored.</param>
+            <param name="args">In the current version, this parameter is ignored.</param>
+        </member>
+        <member name="T:AddinExpress.Extensions.ADXCTPControl">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.AdxWMIEmulateWindow">
+            <summary>
+            Summary description for AdxWMIEmulateWindow.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.WindowsAPI._EnumWindows">
+            <summary>
+            EnumWindows wrapper for .NET
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI._EnumWindows.GetWindows">
+            <summary>
+            Gets all top level windows on the system.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI._EnumWindows.GetWindows(System.IntPtr)">
+            <summary>
+            Gets all child windows of the specified window
+            </summary>
+            <param name="hWndParent">Window Handle to get children for</param>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI._EnumWindows.WindowEnum(System.IntPtr,System.Int32)">
+            <summary>
+            The enum Windows callback.
+            </summary>
+            <param name="hWnd">Window Handle</param>
+            <param name="lParam">Application defined value</param>
+            <returns>1 to continue enumeration, 0 to stop</returns>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI._EnumWindows.OnWindowEnum(System.IntPtr)">
+            <summary>
+            Called whenever a new window is about to be added
+            by the Window enumeration called from GetWindows.
+            If overriding this function, return true to continue
+            enumeration or false to stop.  If you do not call
+            the base implementation the Items collection will
+            be empty.
+            </summary>
+            <param name="hWnd">Window handle to add</param>
+            <returns>True to continue enumeration, False to stop</returns>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI._EnumWindows.Items">
+            <summary>
+            Returns the collection of windows returned by
+            GetWindows
+            </summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.WindowsAPI.EnumWindowsCollection">
+            <summary>
+            Holds a collection of Windows returned by GetWindows.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI.EnumWindowsCollection.Add(System.IntPtr)">
+            <summary>
+            Add a new Window to the collection.  Intended for
+            internal use by EnumWindows only.
+            </summary>
+            <param name="hWnd">Window handle to add</param>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI.EnumWindowsCollection.#ctor">
+            <summary>
+            Constructs a new EnumWindowsCollection object.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsCollection.Item(System.Int32)">
+            <summary>
+            Gets the Window at the specified index
+            </summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem">
+            <summary>
+            Provides details about a Window returned by the 
+            enumeration
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.hWnd">
+            <summary>
+            The window handle.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.GetHashCode">
+            <summary>
+            To allow items to be compared, the hash code
+            is set to the Window handle, so two EnumWindowsItem
+            objects for the same Window will be equal.
+            </summary>
+            <returns>The Window Handle for this window</returns>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Restore">
+            <summary>
+            Restores and Brings the window to the front, 
+            assuming it is a visible application window.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.#ctor(System.IntPtr)">
+            <summary>
+             Constructs a new instance of this class for
+             the specified Window Handle.
+            </summary>
+            <param name="hWnd">The Window Handle</param>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Handle">
+            <summary>
+            Gets the window's handle
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Text">
+            <summary>
+            Gets the window's title (caption)
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.ClassName">
+            <summary>
+            Gets the window's class name.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Iconic">
+            <summary>
+            Gets/Sets whether the window is iconic (mimimised) or not.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Maximised">
+            <summary>
+            Gets/Sets whether the window is maximised or not.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Visible">
+            <summary>
+            Gets whether the window is visible.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Rect">
+            <summary>
+            Gets the bounding rectangle of the window
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Location">
+            <summary>
+            Gets the location of the window relative to the screen.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Size">
+            <summary>
+            Gets the size of the window.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.UnManagedMethods.FLASHW_STOP">
+            <summary>
+            Stop flashing. The system restores the window to its original state.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.UnManagedMethods.FLASHW_CAPTION">
+            <summary>
+            Flash the window caption. 
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.UnManagedMethods.FLASHW_TRAY">
+            <summary>
+            Flash the taskbar button.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.UnManagedMethods.FLASHW_ALL">
+            <summary>
+            Flash both the window caption and taskbar button.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.UnManagedMethods.FLASHW_TIMER">
+            <summary>
+            Flash continuously, until the FLASHW_STOP flag is set.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.UnManagedMethods.FLASHW_TIMERNOFG">
+            <summary>
+            Flash continuously until the window comes to the foreground. 
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPowerPointTaskPaneInstancesCollection">
+            <summary>Represents a collection of ADXPowerPointTaskPane instances created by a
+            ADXPowerPointTaskPanesCollectionItem (see also Remarks). 
+            <para>In PowerPoint 2002, 2003, 2007 the collection contains 
+            exactly one instance.</para></summary>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPaneInstancesCollection.#ctor(System.Collections.IList)">
+            <summary>Creates an instance of the class.</summary>
+            <param name="sourceList">An object implementing the IList interface.</param>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPaneInstancesCollection.IndexOf(AddinExpress.PP.ADXPowerPointTaskPane)">
+            <summary> Returns the index of the specified ADXPowerPointTaskPane in the collection.</summary>
+            <param name="taskPane">The ADXPowerPointTaskPane to search for in the collection.</param>
+            <returns>Integer.</returns>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPaneInstancesCollection.Contains(AddinExpress.PP.ADXPowerPointTaskPane)">
+            <summary>
+            Indicates whether the specified ADXPowerPointTaskPane in the collection.
+            </summary>
+            <param name="taskPane">The ADXPowerPointTaskPane to locate in the collection.</param>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPaneInstancesCollection.GetEnumerator">
+            <summary>Returns an object that implements the System.Collections.IEnumerator 
+            interface and that can iterate through the ADXPowerPointTaskPane objects within the
+            ADXPowerPointTaskPaneInstancesCollection collection.</summary>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPaneInstancesCollection.CopyTo(System.Array,System.Int32)">
+             <summary>Copies all of the elements of the current ADXPowerPointTaskPaneInstancesCollection collection to
+             the specified one-dimensional array, starting at the specified destination array
+             index.</summary>
+             <param name="array">The one-dimensional Array that is the destination of the elements
+            copied from ICollection. The System.Array must have zero-based
+            indexing.</param>
+             <param name="index">The zero-based index in array at which copying begins.</param>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPaneInstancesCollection.Item(System.Int32)">
+            <summary>Returns the ADXPowerPointTaskPane at the specified index.
+            </summary>
+            <param name="index">The index of the ADXPowerPointTaskPane to get.</param>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPaneInstancesCollection.Count">
+            <summary>Gets the number of elements contained in the ADXPowerPointTaskPaneInstancesCollection
+            instance.</summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPaneInstancesCollection.IsSynchronized">
+            <summary>Gets a value indicating whether access to the collection is
+            synchronized (thread safe).</summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPaneInstancesCollection.SyncRoot">
+            <summary>Gets an object that can be used to synchronize access to the
+            collection.</summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPowerPointTaskPane">
+            <summary>A highly specific version of the System.Windows.Forms.Form class
+            designed for being embedded into Word windows.</summary>
+            <remarks>This class and its base class (AddinExpress.Extensions.ADXForm)
+            override a number of properties, methods and events of the
+            System.Windows.Forms.Form class.
+            <para>In addition, this class provides a number of members that relate to the
+            architecture of Add-in Express Extensions for Word. For instance, you can
+            access AddinModule, FormsManager, and Item properties.</para>
+            <para>An ADXPowerPointTaskPane can be in one of three states determined by the Active
+            and Visible properties of the instance. When on top of the set of
+            ADExcelTaskPane instances in a given layout, the Active property of the instance
+            is True. This state is called Active. When not on top of the set of
+            ADExcelTaskPane instances in the layout, the Active property of the instance is
+            False. This state is called Visible. When not in any layout, the Visible
+            property is False.</para>
+            <para>When you need to show a form in a usual way, say as a dialog window, use
+            the System.Windows.Forms.Form class.</para></remarks>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPane.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPane.Show">
+            <summary>Embeds the ADXPowerPointTaskPane into the layout specified by the
+            ADXPowerPointTaskPanesCollectionItem (see the Item property).</summary>
+            <remarks>When the ADXPowerPointTaskPane is embedded, its Visible property is True. To
+            move the form on top of the set of ADXPowerPointTaskPane instances in the layout, use
+            the Activate method.</remarks>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPane.Hide">
+            <summary>Hides the ADXPowerPointTaskPane.
+            </summary>
+            <remarks>The Visible property of the ADXPowerPointTaskPane becomes False.</remarks>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPane.ADXPostMessage(System.IntPtr,System.IntPtr)">
+            <summary>
+            Sends a custom message to the internal window of the add-in. 
+            When the message is received, the ADXPowerPointTaskPane raises the ADXPostMessageReceived event.
+            </summary>
+            <param name="wParam">A value that will be available in the ADXPostMessageReceived event.</param>
+            <param name="lParam">A value that will be available in the ADXPostMessageReceived event.</param>
+        </member>
+        <member name="F:AddinExpress.PP.ADXPowerPointTaskPane.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPane.CurrentPowerPointWindowHandle">
+            <summary>
+            Returns an IntPtr which is the handle of the current Word window into which the ADXPowerPointTaskPane is embedded. Returns IntPtr.Zero if the ADXPowerPointTaskPane isn't currently embedded.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPane.PowerPointAppObj">
+            <summary>
+            Returns a reference to the Word.Application in the context of which the add-in works.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPane.PowerPointTaskPanesManager">
+            <summary>
+            Returns a reference to the Word Forms Manager
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPane.AddinModule">
+            <summary>
+            Returns the add-in module.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPane.Item">
+            <summary>
+            Returns a reference to the item of the ADXPowerPointTaskPanesManager.Items collection that controls the form.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPane.RegionState">
+            <summary>
+            Returns or sets the state of a region for a visible ADXPowerPointTaskPane. 
+            </summary>
+        </member>
+        <member name="E:AddinExpress.PP.ADXPowerPointTaskPane.ADXBeforeTaskPaneShow">
+            <summary>
+            Occurs before the ADXPowerPointTaskPane is displayed.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.PP.ADXPowerPointTaskPane.ADXAfterTaskPaneShow">
+            <summary>
+            Occurs after the ADXPowerPointTaskPane is displayed.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.PP.ADXPowerPointTaskPane.ADXAfterTaskPaneHide">
+            <summary>
+            Occurs just after the ADXPowerPointTaskPane is hidded.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.PP.ADXPowerPointTaskPane.ADXEnter">
+            <summary>
+            Occurs when the task pane is entered.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.PP.ADXPowerPointTaskPane.ADXLeave">
+            <summary>
+            Occurs when the input focus leaves the task pane.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.PP.ADXPowerPointTaskPane.ADXPostMessageReceived">
+            <summary>
+            Occurs after the ADXPostMessage method is called.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.PP.ADXPowerPointTaskPane.ADXCloseButtonClick">
+            <summary>
+            Occurs when the user clicks on the Close button.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.PP.ADXPowerPointTaskPane.ADXSplitterMove">
+            <summary>
+            Occurs when the user drags the splitter. 
+            </summary>
+        </member>
+        <member name="E:AddinExpress.PP.ADXPowerPointTaskPane.ADXDragOverMinimized">
+            <summary>
+            Occurs when an object is dragged over the ADXPowerPointTaskPane and the ADXPowerPointTaskPane is minimised.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPowerPointTaskPane.ADXSplitterMoveEventArgs">
+            <summary>
+             Provides data for the ADXSplitterMove event of ADXPowerPointTaskPane.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPane.ADXSplitterMoveEventArgs.NewRegionSize">
+            <summary>
+             Returns a Size containing a new size of ADXPowerPointTaskPane.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPane.ADXSplitterMoveEventArgs.Cancel">
+            <summary>
+             If set to true, the user cannot move the splitter and, consequently, change the size of ADXPowerPointTaskPane.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPowerPointTaskPane.ADXSplitterMoveEventHandler">
+            <summary>
+            Represents the method that handles the ADXSplitterMove event of ADXPowerPointTaskPane.
+            </summary>
+            <param name="sender">The ADXPowerPointTaskPane which is the source of the event.</param>
+            <param name="e">An ADXSplitterMoveEventArgs that provides event data.</param>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPowerPointTaskPane.ADXDragOverMinimizedEventArgs">
+            <summary>
+            Provides data for the ADXDragOverMinimized event of the ADXPowerPointTaskPane.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPane.ADXDragOverMinimizedEventArgs.Expand">
+            <summary>
+            If true, the minimised ADXPowerPointTaskPane will be expanded.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPowerPointTaskPane.DragOverMinimized_EventHandler">
+            <summary>
+            Represents the method that handles the ADXDragOverMinimized event of the ADXPowerPointTaskPane.
+            </summary>
+            <param name="sender">The ADXPowerPointTaskPane that is the source of the event.</param>
+            <param name="e">An ADXDragOverMinimizedEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.PP.ADXBeforeTaskPaneShowEventHandler">
+            <summary> Represents the method that handles the ADXBeforeTaskPaneShow event of
+            the ADXPowerPointTaskPane.</summary>
+            <param name="sender">The ADXPowerPointTaskPane which is the source of the
+            event.</param>
+            <param name="e">An ADXBeforeTaskPaneShowEventArgs which contains event
+            data.</param>
+        </member>
+        <member name="T:AddinExpress.PP.ADXAfterTaskPaneShowEventHandler">
+            <summary>
+            Represents the method that handles the ADXAfterTaskPaneShow event of the ADXPowerPointTaskPane.
+            </summary>
+            <param name="sender">The ADXPowerPointTaskPane which is the source of the event.</param>
+            <param name="e">An ADXAfterTaskPaneShowEventArgs which contains event data.</param>
+        </member>
+        <member name="T:AddinExpress.PP.ADXAfterTaskPaneHideEventHandler">
+            <summary>
+            Represents the method that handles the ADXAfterTaskPaneHide event of the ADXPowerPointTaskPane.
+            </summary>
+            <param name="sender">The ADXPowerPointTaskPane which is the source of the event.</param>
+            <param name="e">An ADXAfterTaskPaneHideEventArgs which contains event data.</param>
+        </member>
+        <member name="T:AddinExpress.PP.ADXCloseButtonClickEventHandler">
+            <summary>
+            Represents the method that handles the ADXCloseButtonClick event of the ADXPowerPointTaskPane.
+            </summary>
+            <param name="sender">An ADXPowerPointTaskPane that is curretly active.</param>
+            <param name="e">An ADXCloseButtonClickEventArgs that provides event data.</param>
+        </member>
+        <member name="T:AddinExpress.PP.ADXBeforeTaskPaneShowEventArgs">
+            <summary>
+            Provides data for the ADXBeforeTaskPaneShow event of the ADXPowerPointTaskPane. 
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXAfterTaskPaneShowEventArgs">
+            <summary>
+            Provides data for the ADXAfterTaskPaneShow event of the ADXPowerPointTaskPane. 
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXAfterTaskPaneHideEventArgs">
+            <summary>
+            Provides data for the ADXAfterTaskPaneHide event of the ADXPowerPointTaskPane. 
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXEnterEventArgs">
+            <summary>
+            Provides data for the ADXEnter event of the ADXPowerPointTaskPane.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXEnterEventHandler">
+            <summary>
+            Represents the method that handles the ADXEnter event of the ADXPowerPointTaskPane.
+            </summary>
+            <param name="sender">The ADXPowerPointTaskPane which is the source of the event.</param>
+            <param name="e">An ADXEnterEventArgs that provides event data.</param>
+        </member>
+        <member name="T:AddinExpress.PP.ADXLeaveEventArgs">
+            <summary>
+            Provides data for the ADXLeave event of the ADXPowerPointTaskPane.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXLeaveEventHandler">
+            <summary>
+            Represents the method that handles the ADXLeave event of the ADXPowerPointTaskPane.
+            </summary>
+            <param name="sender">The ADXPowerPointTaskPane which is the source of the event.</param>
+            <param name="e">An ADXLeaveEventArgs that provides event data.</param>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPostMessageReceivedEventArgs">
+            <summary>
+            Provides data for the ADXPostMessageReceived event of the ADXPowerPointTaskPane.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPostMessageReceivedEventArgs.WParam">
+            <summary>
+            This is a message-specific parameter from the ADXPowerPointTaskPane.ADXPostMessage method.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPostMessageReceivedEventArgs.LParam">
+            <summary>
+            This is a message-specific parameter from the ADXPowerPointTaskPane.ADXPostMessage method.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPostMessageReceivedEventHandler">
+            <summary>
+            Represents the method that handles the ADXPostMessageReceived event of the ADXPowerPointTaskPane.
+            </summary>
+            <param name="sender">The ADXPowerPointTaskPane which is the source of the event.</param>
+            <param name="e">An ADXPostMessageReceivedEventArgs that provides event data.</param>
+        </member>
+        <member name="T:AddinExpress.PP.ADXCloseButtonClickEventArgs">
+            <summary>
+            Provides data for the ADXCloseButtonClick event of the ADXPowerPointTaskPane.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXCloseButtonClickEventArgs.CloseForm">
+            <summary>
+            If true, the form will be closed. Default - true.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXCloseButtonClickEventArgs.DisableItem">
+            <summary>
+            If true, the item corresponding to the form will be disabled. Default - false.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPowerPointTaskPanesCollection">
+            <summary>
+            A collection of items that manage task pane embedding. Every item (of the ADXPowerPointTaskPanesCollectionItem type) specifies the form (of the ADXPowerPointTaskPane type) to be embedded as well as position and other aspects of form embedding.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesCollection.Copy">
+            <summary>
+            Creates a new ADXPowerPointTaskPanesCollection object and copies all collection items to this object.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesCollection.Clear">
+            <summary>
+            Removes all items from the collection.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesCollection.Add(AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem)">
+            <summary>
+            Adds an ADXPowerPointTaskPanesCollectionItem to the end of the ADXOlFormsCollection.
+            </summary>
+            <param name="formsItem">The ADXPowerPointTaskPanesCollectionItem to be added to the end of the ADXPowerPointTaskPanesCollection.</param>
+            <returns>Either the ADXPowerPointTaskPanesCollectionItem (existing or just added) or null (Nothing in VB.NET).</returns>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesCollection.RemoveAt(System.Int32)">
+            <summary>
+            Removes the ADXPowerPointTaskPanesCollectionItem at the specified index of the ADXPowerPointTaskPanesCollection.
+            </summary>
+            <param name="index">The zero-based index of the ADXPowerPointTaskPanesCollectionItem to remove. </param>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesCollection.IndexOf(AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem)">
+            <summary>
+            Searches for the specified ADXPowerPointTaskPanesCollectionItem and returns the zero-based index of the first occurrence within the entire ADXPowerPointTaskPanesCollection.
+            </summary>
+            <param name="formsItem">The ADXPowerPointTaskPanesCollectionItem to locate in the collection.</param>
+            <returns>The zero-based index of the first occurrence of value within the entire ADXPowerPointTaskPanesCollection, if found; otherwise, -1.</returns>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesCollection.Contains(AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem)">
+            <summary> Determines whether an element is in the
+            ADXOlFormsCollection.</summary>
+            <param name="formsItem">The Object to locate in the ADXPowerPointTaskPanesCollection. The
+            value can be a null reference (Nothing in Visual Basic).</param>
+            <returns><b>true</b> if <i>formsItem</i> is found in the ADXPowerPointTaskPanesCollection;
+            otherwise, <b>false</b>.</returns>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesCollection.Remove(AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem)">
+            <summary>
+            Removes the item from the ADXPowerPointTaskPanesCollection,
+            </summary>
+            <param name="formsItem">The ADXPowerPointTaskPanesCollection to remove from the ADXPowerPointTaskPanesCollection.</param>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollection.Owner">
+            <summary>
+            Returns the ADXPowerPointTaskPanesManager which is the owner of the collection.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollection.Item(System.Int32)">
+            <summary>
+            Returns an ADXPowerPointTaskPanesCollectionItem at the specified index.
+            </summary>
+            <param name="index">The zero-based index of the ADXPowerPointTaskPanesCollectionItem to get.</param>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem">
+            <summary> Represents an item in an ADXPowerPointTaskPanesCollection.</summary>
+            <remarks>First off, you specify an ADXPowerPointTaskPane in the FormClassName
+            property and set the Enabled property to True. 
+            <para>To show instances of the ADXPowerPointTaskPane in Word, specify an appropriate
+            layout in the Position property.</para>
+            <para>To be able to resize the ADXPowerPointTaskPane programmatically, you set the
+            Splitter property to None.</para></remarks>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.#ctor">
+            <summary>
+            Initializes a new instance of the class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.#ctor(System.ComponentModel.IContainer)">
+            <summary>
+            Initializes a new instance of the class.
+            </summary>
+            <param name="container">An IContainer that represents the container for the component.</param>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.ShowTaskPane">
+            <summary>
+            Creates an instance of the ADXPowerPointTaskPane or finds existing an instance and shows it.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.GetCurrentTaskPaneInstance(AddinExpress.PP.EmbeddedFormStates)">
+            <summary> Returns an instance of the ADXPowerPointTaskPane (specified in the TaskPaneClassName
+            property) in the specified state.</summary>
+            <remarks>An instance of the ADXPowerPointTaskPane can be in one of three states determined
+            by the Active and Visible properties of the instance. When on top of the set of
+            ADXPowerPointTaskPane instances in a given layout, the Active property of the instance is
+            True. This state is called Active. When not on top of the set of ADXPowerPointTaskPane
+            instances in the layout, the Active property of the instance is False. This
+            state is called Visible. When not in any layout, the Visible property is
+            False.</remarks>
+            <param name="EmbeddedFormState">The state of the instance of the
+            ADXPowerPointTaskPane.</param>
+            <returns>The instance of the ADXPowerPointTaskPane or null (Nothing in VB.NET).</returns>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.CreateTaskPaneInstance">
+            <summary>
+            Creates an instance of the ADXExcelTaskPane and shows it. If the instance exists, fires an exception.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.Collection">
+            <summary>
+            Returns the ADXPowerPointTaskPanesCollection which is the parent of the ADXPowerPointTaskPanesCollectionItem.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.TaskPaneInstance">
+            <summary>
+            Returns the current ADXPowerPointTaskPane instance which is currently shown (or hidden).
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.TaskPaneInstances">
+            <summary>
+            Returns the collection of created TaskPane instances.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.Position">
+            <summary>
+            Specifies the position the instance of the ADXPowerPointTaskPane specified in the TaskPaneClassName property will be embedded into.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.AlwaysShowHeader">
+            <summary>
+            If False and an only instance of an ADXPowerPointTaskPane is shown in Position, the header isn't shown. 
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.CloseButton">
+            <summary>  If true, the close button will be displayed for every instance of
+            ADXPowerPointTaskPane which class name is specified in the TaskPaneClassName
+            property. When the user clicks the button, the corresponding ADXPowerPointTaskPane
+            fires the ADXCloseButtonClick event.</summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.IsHiddenStateAllowed">
+             <summary> If false, the hidden state will be unavailable through the user interface 
+             for the region showing an instance of ADXPowerPointTaskPane whose class name is specified 
+             in the TaskPaneClassName property. 
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.TaskPaneClassName">
+            <summary>
+            Returns or sets the class name of an ADXPowerPointTaskPane instances of which will be created and shown by the ADXPowerPointTaskPanesCollectionItem.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.Enabled">
+            <summary>
+            If false, no ADXPowerPointTaskPane instances will be created and shown.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.Splitter">
+            <summary>
+            Specifies the splitter. If this property is set to None, the corresponding ADXPowerPointTaskPane can be resized programmatically.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.DefaultRegionState">
+            <summary>Returns or sets a value of the ADXRegionState type that specify the
+            default state of the region to which the forms created by the current
+            ADXPowerPointTaskPanesCollectionItem will be embedded. The value specified by
+            this property is applied only once - if no Add-in Express forms were ever
+            embedded in the regions specified by the current
+            ADXPowerPointTaskPanesCollectionItem when your add-in is run on a given PC for
+            the very first time. In all other circumstances, the state of the region is
+            controlled by the user.</summary>
+            <remarks>A region can be in the following states: normal, hidden (collapsed to a
+            5px wide strip), minimized (reduced to the size of the form caption).</remarks>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.Tag">
+            <summary>Returns or sets a string value that can be used to store data
+            associated with the ADXPowerPointTaskPanesCollectionItem.</summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.RestoreFromMinimizedState">
+            <summary>Returns or sets a Boolean value specifying the display of the pane
+            created by the current ADXPowerPointTaskPanesCollectionItem when the region is
+            reduced to the size of the form caption (i.e. when it is in the minimized state)
+            and the user clicks on the form caption. If the value is true, the region will
+            be restored to the normal state. If the value is false, the form will pop-up
+            overlaying the adjoining part of the PowerPoint window, in which the form is
+            embedded.</summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.IsDragDropAllowed">
+            <summary>Returns or sets a Boolean value specifying if the user can
+            drag-and-drop forms created by the current ADXPowerPointTaskPanesCollectionItem
+            to the regions specified by the AllowedDropRegions property of the same
+            ADXPowerPointTaskPanesCollectionItem.</summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.UseOfficeThemeForBackground">
+            <summary>
+            If set to true, the color of the current Office theme is used to paint the background of ADXPowerPointTaskPane. Otherwise, the color set at design-time is used.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesCollectionItem.RegionBorder">
+            <summary>
+            Determines whether to show a frame arround the region or not to show.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPowerPointTaskPanesManager">
+            <summary>Word Forms Manager. The main class of the Add-in Express 
+            Extensions for Word.</summary>
+            <remarks>The folowing classes constitute the architecture of the Add-in Express
+            Extensions for Word: 
+            <list type="bullet">
+            <item>
+            <description>ADXPowerPointTaskPanesManager</description></item>
+            <item>
+            <description>ADXPowerPointTaskPanesCollection</description></item>
+            <item>
+            <description>ADXPowerPointTaskPanesCollectionItem</description></item>
+            <item>
+            <description>ADXPowerPointTaskPane</description></item></list>
+            <para>You start with adding an item to the Items collection and binding it to an
+            ADXPowerPointTaskPane which is the base class for every form embeddable into Word
+            windows. Then you process events provided in ADXPowerPointTaskPanesManager and ADXPowerPointTaskPane.
+            </para>
+            <para>The most notable event in this class is ADXBeforeTaskPaneInstanceCreate.</para></remarks>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesManager.#ctor">
+            <summary>
+            Initializes a new instance of the class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesManager.#ctor(System.ComponentModel.IContainer)">
+            <summary>
+            Initializes a new instance of the class.
+            </summary>
+            <param name="container">An IContainer that represents the container for the component.</param>
+        </member>
+        <member name="M:AddinExpress.PP.ADXPowerPointTaskPanesManager.SetOwner(System.Object)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="AddinModule">An instance of the Add-in Express AddinModule class.</param>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesManager.AddinModule">
+            <summary>
+            Returns the add-in module the component is located on.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesManager.PowerPointAppObj">
+            <summary>
+            Returns a reference to PowerPoint.Application (a COM object).
+            </summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.PP.ADXPowerPointTaskPanesManager.Items">
+            <summary>
+            A collection of items that manage form embedding. Every item (of the ADXPowerPointTaskPanesCollectionItem type) specifies the form to be embedded as well as the position and other aspects of form embedding.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.PP.ADXPowerPointTaskPanesManager.ADXInitialize">
+            <summary>
+            Occurs before the Word Forms Manager is initialized.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.PP.ADXPowerPointTaskPanesManager.ADXBeforeTaskPaneInstanceCreate">
+            <summary>
+            Occurs before a form instance (of the ADXPowerPointTaskPane Type) is created. Allows preventing the creation of the instance. 
+            </summary>
+        </member>
+        <member name="E:AddinExpress.PP.ADXPowerPointTaskPanesManager.ADXError">
+            <summary>
+            Occurs when the ADXPowerPointTaskPanesManager generates an exception.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXErrorEventHandler">
+            <summary> Represents the method that handles the ADXPowerPointTaskPanesManager.ADXError
+            event.</summary>
+            <param name="sender">The ADXPowerPointTaskPanesManager that is the source of the event.</param>
+            <param name="e">An ADXErrorEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.PP.ADXInitializeEventHandler">
+            <summary> Represents the method that handles the ADXPowerPointTaskPanesManager.ADXInitialize
+            event.</summary>
+            <param name="sender">The ADXPowerPointTaskPanesManager that is the source of the event.</param>
+            <param name="e">An ADXInitializeEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.PP.ADXBeforeTaskPaneInstanceCreateEventHandler">
+            <summary> Represents the method that handles the
+            ADXPowerPointTaskPanesManager.ADXBeforeTaskPaneInstanceCreate event.</summary>
+            <param name="sender">The ADXPowerPointTaskPanesManager that is the source of the event.</param>
+            <param name="e">An ADXBeforeTaskPaneInstanceCreateEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.PP.ADXErrorEventArgs">
+            <summary>
+            Provides data for the ADXPowerPointTaskPanesManager.ADXError event.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXErrorEventArgs.Exception">
+            <summary>
+            Returns the exception that is the cause of the event.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXErrorEventArgs.Handled">
+            <summary>
+            Returns or sets a boolean value that specifies if the OnError event is handled by the developer. If it is false (default), the Extensions shows an error dialog.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXBeforeTaskPaneInstanceCreateEventArgs">
+            <summary>
+            Provides data for the ADXBeforeTaskPaneInstanceCreate event of ADXPowerPointTaskPanesManager.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXBeforeTaskPaneInstanceCreateEventArgs.Cancel">
+            <summary>
+            If true, prevents creating an instance of the ADXPowerPointTaskPane defined in the TaskPaneClassName property of the ADXPowerPointTaskPanesCollectionItem which is specified in the Item member of this class.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.PP.ADXBeforeTaskPaneInstanceCreateEventArgs.Item">
+            <summary>
+            Returns the ADXPowerPointTaskPanesCollectionItem that is about to create an ADXPowerPointTaskPane instance.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXInitializeEventArgs">
+            <summary>
+            Provides data for the ADXPowerPointTaskPanesManager.ADXInitialize event.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.PowerPointApplicationEvents">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.PP.PowerPointApplicationEvents.Dispose">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXSyncEventType">
+            <summary>
+            The status of document/workbook synchronization.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPowerPointTaskPanePosition">
+            <summary>
+            Positions avalable for a task pane.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPowerPointAllowedDropPositions">
+            <summary>The regions to which and from which the user can drag-and-drop the
+            forms created by a given ADXPowerPointTaskPanesCollectionItem.</summary>
+        </member>
+        <member name="T:AddinExpress.PP.ADXPowerPointSplitter">
+            <summary>
+            The splitter.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXPowerPointSplitter.None">
+            <summary>The user is unable to resize the form. The developer is able to resize the
+            form programmatically.</summary>
+        </member>
+        <member name="F:AddinExpress.PP.ADXPowerPointSplitter.Standard">
+            <summary>The user is able to resize, show, or hide the form. The developer is
+            unable to resize the form programmatically.</summary>
+        </member>
+        <member name="T:AddinExpress.PP.Log">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.PP.Log.AddException(System.String,System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.
+            </summary>
+            <param name="mes">An exception message that will be added to the log.</param>
+            <param name="detailedInfo">Detailed info about the exception that will be added to the log.</param>
+        </member>
+        <member name="M:AddinExpress.PP.Log.AddSystemInfo(System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="info">Info that will be added to the log.</param>
+        </member>
+        <member name="M:AddinExpress.PP.Log.AddMessage(System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.
+            </summary>
+            <param name="mes">A message that will be added to the log.</param>
+        </member>
+        <member name="M:AddinExpress.PP.Log.AddWarning(System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.
+            </summary>
+            <param name="mes">A warning message that will be added to the log.</param>
+        </member>
+        <member name="M:AddinExpress.PP.Log.AddIndent">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.PP.Log.RemoveIndent">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.PP.Log.SetCountLastMessages(System.Int32)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.
+            </summary>
+            <param name="count">A count of messages that will be contained in the log.</param>
+        </member>
+        <member name="M:AddinExpress.PP.Log.GetMessages">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.PP.Log.ShowMessages(System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="caption">A caption of a window log.</param>
+        </member>
+        <member name="M:AddinExpress.PP.Log.ClearMessages">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.PP.Log.Save(System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.
+            </summary>
+            <param name="fileName">A file name that will be used for saving the log.</param>
+        </member>
+        <member name="P:AddinExpress.PP.Log.SaveLogToFilebyDefaultAfterAddingEachMessage">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="P:AddinExpress.PP.Log.SaveLogToFilebyDefaultWhenManagerIsDisposed">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="P:AddinExpress.PP.Log.LogFileByDefault">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+    </members>
+</doc>

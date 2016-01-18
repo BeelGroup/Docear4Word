@@ -1,0 +1,86 @@
+﻿v1.30
+- A database parsing error during Refresh now displays message with line and column information.
+- Citation Key:
+  - Changing to the official spec of allowed characters was causing too many problems for existing libraries.
+    - '<', '>', '&', '%', '{', '}', ',', '"' plus whitespace characters are now disallowed but any other char is valid
+    - An apostrophe "'" *is* allowed in the database but is removed from the Name before use rather than treat it as invalid. 
+      This was always the case since v1.0 so we must continue this (rather than replacing it with '`' say)
+      because existing citations may be using a Key with the apostrophe stripped out.
+- Some optimizations have been made so that moving through a large document with many fields isn't slow
+  - When the Reference tab is selected (and the Docear4Word buttons need to be updated), Docear4Word now makes the minimum
+	  number of checks necessary. It is still slower towards the end of a large document than the beginning but much improved
+		over previous versions.
+  - When the Reference tab is not selected, Docear4Word makes no checks and so cursor movement is at full speed regardless
+	  of position in the document.
+
+
+v1.23
+- Parsing error in BibTex database now displays line and column information
+- Updated citeproc.js to 1.0.517
+- Reset cursor to I-Beam at the start of WindowSelectionchange
+
+
+v1.22
+- Fixed issue where "-" as the Page in Bibtex caused a problem. Now ignored.
+
+
+v1.20
+- CiteProcRunner gets citeproc.js version on first use
+- Added Null checks for <field>.Code.Text to ContainsBibliography, EnumerateCSLFields, IsDocearField, IsCitationField, IsBibliographyField
+- AboutForm now displays the citeproc.js version number
+- Updated citeproc.js to 1.0.474 which fixes some major integration issues
+- Issue and Number Tags: If only one present in BibTex then is propagated to both Issue and Number in CSL
+
+
+v1.10
+
+- Added radio buttons for AuthorProcessor Control
+- Added Paste and Select button
+- Added Tooltips
+- Added PersonalFolder item to About screen
+- Updated Citeproc to v1.0.459
+- Refocus to active document after each process call
+
+
+v1.02
+  00693
+	- Latest version of Citeproc fixes ordering of citations
+
+	- More detailed description written into log when parsing a .bib file fails.
+	  It will show the line and column number at the point of failure.
+
+
+v1.01
+  00303
+  - Added warning message if a BibTex file is considered corrupt, rather than just ignoring it. (#740, #692)
+	- BibTex load now also suppors CP1252 codepage.
+	- Unexpected exceptions now logged to the log file. (#740)
+
+	00304
+	- Added workaround for missing BibTex keys. We create a new one of the form "_Unknown_XX" where XX increase with each missing key within the file.
+	
+	00305
+	- DEV: Added MLA.csl sample file.
+	- Fixed bug where the ID was being used instead of the Name.
+
+	00317
+	- Made toolbar dropdown wider.
+	- Added warning message and instruction when no BibTex database is configured. (#740)
+
+	00322
+	- Parser now copes with no tags present.
+
+	00355
+	- Removed paragraph formatting from within Field code as it influence formatting in the main document.
+	- JSON is now stored within the Field with space separators and LineFeeds since it could influence formatting in the main document. (#729)
+	- Updated Citeproc.js to v1.0.426 which fixed these issues:
+	  - Incorrect trimming of punctuation. (#743)
+		- "Tri-graph" styles not working. (#694)
+		- Failure to load some styles containing comments.
+
+	00486
+	- BibTex Lexer now supports unix line endings. (#692)
+	- Issue tag is now supported (#743).
+	- Fixed bug with Issue and Number casing.
+
+	

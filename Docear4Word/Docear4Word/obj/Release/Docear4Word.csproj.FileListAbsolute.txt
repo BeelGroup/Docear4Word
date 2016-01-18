@@ -1,0 +1,76 @@
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\bin\Release\JavaScript\JSRunner.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\bin\Release\JavaScript\citeproc.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\bin\Release\JavaScript\JSON.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\bin\Release\JavaScript\Sys.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\bin\Release\JavaScript\xmldom.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\bin\Release\licence.txt
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\bin\Release\Docear4Word.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\bin\Release\Docear4Word.pdb
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\bin\Release\Interop.Office.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\bin\Release\Interop.VBIDE.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\bin\Release\Interop.Word.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\bin\Release\JavaScriptIntegration.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\bin\Release\JavaScriptIntegration.pdb
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\obj\Release\Docear4Word.AddinModule.resources
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\obj\Release\Docear4Word.Forms.AboutForm.resources
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\obj\Release\Docear4Word.Forms.AddReferencesForm.resources
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\obj\Release\Docear4Word.Images.resources
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\obj\Release\Docear4Word.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word\obj\Release\Docear4Word.pdb
+F:\src\Visual Studio 2010\Projects\Docear4Word\docear4word\bin\Release\LinqBridge.dll
+F:\src\Visual Studio 2010\Projects\Docear4Word\docear4word\obj\Release\Docear4Word.csprojResolveAssemblyReference.cache
+F:\src\Visual Studio 2010\Projects\Docear4Word\docear4word\obj\Release\Docear4Word.Forms.DialogFooter.resources
+F:\src\Visual Studio 2010\Projects\Docear4Word\docear4word\obj\Release\Docear4Word.Forms.SettingsForm.resources
+F:\src\Visual Studio 2010\Projects\Docear4Word\docear4word\obj\Release\Docear4Word.csproj.GenerateResource.Cache
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\JavaScript\JSRunner.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\JavaScript\citeproc.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\JavaScript\JSON.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\JavaScript\Sys.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\JavaScript\xmldom.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\licence.txt
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\Docear4Word.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\Docear4Word.pdb
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\Docear4Word.tlb
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\Interop.Office.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\Interop.VBIDE.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\Interop.Word.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\JavaScriptIntegration.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\LinqBridge.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\JavaScriptIntegration.pdb
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\obj\Release\Docear4Word.csprojResolveAssemblyReference.cache
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\obj\Release\Docear4Word.AddinModule.resources
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\obj\Release\Docear4Word.Forms.AboutForm.resources
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\obj\Release\Docear4Word.Forms.AddReferencesForm.resources
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\obj\Release\Docear4Word.Forms.DialogFooter.resources
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\obj\Release\Docear4Word.Forms.SettingsForm.resources
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\obj\Release\Docear4Word.Images.resources
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\obj\Release\Docear4Word.csproj.GenerateResource.Cache
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\obj\Release\Docear4Word.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\obj\Release\Docear4Word.pdb
+C:\Docear4Word\docear4word\bin\Release\JavaScript\JSRunner.js
+C:\Docear4Word\docear4word\bin\Release\JavaScript\citeproc.js
+C:\Docear4Word\docear4word\bin\Release\JavaScript\JSON.js
+C:\Docear4Word\docear4word\bin\Release\JavaScript\Sys.js
+C:\Docear4Word\docear4word\bin\Release\JavaScript\xmldom.js
+C:\Docear4Word\docear4word\bin\Release\licence.txt
+C:\Docear4Word\docear4word\bin\Release\Docear4Word.dll
+C:\Docear4Word\docear4word\bin\Release\Docear4Word.pdb
+C:\Docear4Word\docear4word\bin\Release\Docear4Word.tlb
+C:\Docear4Word\docear4word\bin\Release\Interop.Office.dll
+C:\Docear4Word\docear4word\bin\Release\Interop.VBIDE.dll
+C:\Docear4Word\docear4word\bin\Release\Interop.Word.dll
+C:\Docear4Word\docear4word\bin\Release\JavaScriptIntegration.dll
+C:\Docear4Word\docear4word\bin\Release\LinqBridge.dll
+C:\Docear4Word\docear4word\bin\Release\JavaScriptIntegration.pdb
+C:\Docear4Word\docear4word\obj\Release\Docear4Word.csprojResolveAssemblyReference.cache
+C:\Docear4Word\docear4word\obj\Release\Docear4Word.AddinModule.resources
+C:\Docear4Word\docear4word\obj\Release\Docear4Word.Forms.AboutForm.resources
+C:\Docear4Word\docear4word\obj\Release\Docear4Word.Forms.AddReferencesForm.resources
+C:\Docear4Word\docear4word\obj\Release\Docear4Word.Forms.DialogFooter.resources
+C:\Docear4Word\docear4word\obj\Release\Docear4Word.Forms.SettingsForm.resources
+C:\Docear4Word\docear4word\obj\Release\Docear4Word.Images.resources
+C:\Docear4Word\docear4word\obj\Release\Docear4Word.csproj.GenerateResource.Cache
+C:\Docear4Word\docear4word\obj\Release\Docear4Word.dll
+C:\Docear4Word\docear4word\obj\Release\Docear4Word.pdb
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\AddinExpress.MSO.2005.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word\bin\Release\AddinExpress.MSO.2005.xml
