@@ -1,0 +1,122 @@
+﻿v1.30
+- We now only update when the References Tab is selected and just set a flag when it isn't
+  - The OnRefreshPropertyChanging event will check the flag and then arrange a full update
+	  when necessary
+- Updating state is now only done when necessary since Word doesn't perform a NOP when the value is the same
+- AccessibleHelper added to be able to detected when the References tab is selected
+- GetCSLFields now split into two
+  - GetAllCSLFields which was the original functionality (though not used now)
+	- GetMaxTwoSelectedCSLFields which is optimized to find 0, 1, or 2 fields within a specified range
+	  - We don't need to know how many fields - just whether there is 0, 1 or multiple
+		  so this is faster then before although is slower when the selection range is at the end of a document
+			since it still has to read Fields from the start.
+			** There may be an opportunity to speed this up by doing a binary chop on the Fields list **
+- SelectionManager moved to its own file
+  - Now uses GetMaxTwoSelectedCSLFields and caches the results
+	- Uses more specific properties when setting state
+
+v1.23
+- Can't prevent Cursor.Wait since it is already set to that by the time we get control
+  - Just reset to I-Beam
+- Bit difficult to preserve lexer info when exception thrown
+  - Store last exception so it can be picked up later
+- Name token
+  - Now uses original spec (not sure where from) to allow funny chars to be included
+
+v1.21
+- '-' as the page caused problems - now ignored.
+
+v1.20
+- Citeproc updated to v1.0.474
+- citeproc version number extracted on first use and displayed on About form
+
+v1.10
+
+- EntryAndPagePair
+  - Added Authors
+  - Added AuthorProcessorControl
+- Added AuthorProcessorControl enum
+  - Standard, AuthorOnly, SuppressAuthor, SplitAuthor
+
+- ActiveDocument is focused after each process
+
+- Added FindMatch(string key) to BibTexDatabase
+- TagEntry now trims the DisplayText to ensure match
+- Added AuthorOnly and SuppressAuthor to inline citation items
+
+- Added LinqBridge.dll to project
+- Added AddFromDocear image
+
+- DocumentController
+  - DoInsertCitation now deals with author processor control
+  - DocumentControllerCitationInserter gets InsertItemsList() to optimize addding multiple cites
+  
+- AboutForm
+  - Now has BibTextFileFolder and PersonalData entries
+  
+- AddReferencesForm
+  - Added interop methods to listen to clipboasrd
+  - Added Paste and Select button
+  - Added PasteAndSelectInfo class
+  - Added tooltips
+  - Added AuthorProcessControl radio buttons
+  - Added TransparentControl to allow tooltip to be displayed on disabled button
+
+- Helper
+  - Added GetAuthorProcessControl method
+  - ExtractSource() now updates AuthorProcessorControl
+
+- Citeproc updated to v1.0.459
+
+- MainController
+  - Now disposes all forms after use
+  - Always calls DoInsertCitation instead of calling InsertCitationSequence and InsertCitation
+  
+- Version number now v1.1
+
+- Settings
+  - Gets GetDefaultDatabaseFolder()
+
+
+v1.02
+  00693
+	- Latest version of Citeproc fixes ordering of citations
+
+	- More detailed description written into log when parsing a .bib file fails.
+	  It will show the line and column number at the point of failure.
+
+
+v1.01
+  00303
+  - Added warning message if a BibTex file is considered corrupt, rather than just ignoring it. (#740, #692)
+	- BibTex load now also suppors CP1252 codepage.
+	- Unexpected exceptions now logged to the log file. (#740)
+
+	00304
+	- Added workaround for missing BibTex keys. We create a new one of the form "_Unknown_XX" where XX increase with each missing key within the file.
+	
+	00305
+	- DEV: Added MLA.csl sample file.
+	- Fixed bug where the ID was being used instead of the Name.
+
+	00317
+	- Made toolbar dropdown wider.
+	- Added warning message and instruction when no BibTex database is configured. (#740)
+
+	00322
+	- Parser now copes with no tags present.
+
+	00355
+	- Removed paragraph formatting from within Field code as it influence formatting in the main document.
+	- JSON is now stored within the Field with space separators and LineFeeds since it could influence formatting in the main document. (#729)
+	- Updated Citeproc.js to v1.0.426 which fixed these issues:
+	  - Incorrect trimming of punctuation. (#743)
+		- "Tri-graph" styles not working. (#694)
+		- Failure to load some styles containing comments.
+
+	00486
+	- BibTex Lexer now supports unix line endings. (#692)
+	- Issue tag is now supported (#743).
+	- Fixed bug with Issue and Number casing.
+
+	

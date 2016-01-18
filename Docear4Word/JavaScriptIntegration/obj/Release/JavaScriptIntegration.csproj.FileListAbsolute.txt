@@ -1,0 +1,14 @@
+F:\src\Visual Studio 2010\Projects\docear4word\JavaScriptIntegration\bin\Release\JavaScriptIntegration.dll
+F:\src\Visual Studio 2010\Projects\docear4word\JavaScriptIntegration\bin\Release\JavaScriptIntegration.pdb
+F:\src\Visual Studio 2010\Projects\docear4word\JavaScriptIntegration\obj\Release\JavaScriptIntegration.dll
+F:\src\Visual Studio 2010\Projects\docear4word\JavaScriptIntegration\obj\Release\JavaScriptIntegration.pdb
+C:\Users\Allen\Docear4Word\Docear4Word\JavaScriptIntegration\bin\Release\JavaScriptIntegration.dll
+C:\Users\Allen\Docear4Word\Docear4Word\JavaScriptIntegration\bin\Release\JavaScriptIntegration.pdb
+C:\Users\Allen\Docear4Word\Docear4Word\JavaScriptIntegration\obj\Release\JavaScriptIntegration.dll
+C:\Users\Allen\Docear4Word\Docear4Word\JavaScriptIntegration\obj\Release\JavaScriptIntegration.pdb
+C:\Docear4Word\JavaScriptIntegration\bin\Release\JavaScriptIntegration.dll
+C:\Docear4Word\JavaScriptIntegration\bin\Release\JavaScriptIntegration.pdb
+C:\Docear4Word\JavaScriptIntegration\obj\Release\JavaScriptIntegration.csprojResolveAssemblyReference.cache
+C:\Docear4Word\JavaScriptIntegration\obj\Release\JavaScriptIntegration.dll
+C:\Docear4Word\JavaScriptIntegration\obj\Release\JavaScriptIntegration.pdb
+C:\Users\Allen\Docear4Word\Docear4Word\JavaScriptIntegration\obj\Release\JavaScriptIntegration.csprojResolveAssemblyReference.cache

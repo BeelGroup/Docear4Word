@@ -1,0 +1,2252 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AddinExpress.OL.2005</name>
+    </assembly>
+    <members>
+        <member name="T:AddinExpress.OL.ADXRegionBorderStyle">
+            <summary>Specifies the border style for a region.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXRegionState">
+            <summary>The default states of the region to which the forms created by the
+            current collection item will be embedded.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOutlookVersion">
+            <summary>Outlook versions.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.EmbeddedFormStates">
+            <summary>The state of an ADXOlForm.</summary>
+            <remarks>An instance of the ADXOlForm can be in one of three states determined
+            by the Active and Visible properties of the instance. When on top of the set of
+            ADXOlForm instances in a given layout, the Active property of the instance is
+            True. This state is called Active. When not on top of the set of ADXOlForm
+            instances in the layout, the Active property of the instance is False. This
+            state is called Visible. When not in any layout, the Visible property is
+            False.</remarks>
+        </member>
+        <member name="F:AddinExpress.OL.EmbeddedFormStates.Visible">
+            <summary>The ADXOlForm is not on top of the set of instances in a
+            layout.</summary>
+        </member>
+        <member name="F:AddinExpress.OL.EmbeddedFormStates.Active">
+            <summary>The ADXOlForm is on top of the set of instances in a layout.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlReadingPaneLayout">
+            <summary>Reading Pane layouts.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlExplorerItemTypes">
+            <summary>
+            Outlook item types for which an ADXOlForm can be shown.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlInspectorItemTypes">
+            <summary>
+            Outlook item types for which an ADXOlForm can be shown.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlInspectorMode">
+            <summary>
+            Outlook item types for which an ADXOlForm can be shown.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlExplorerLayout">
+            <summary>Regions available for embedding an ADXOlForm into explorer
+            windows.</summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.Unknown">
+            <summary>
+            The form will not be shown.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.TopSubpane">
+            <summary>
+            At the top of the list of messages, tasks, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.BottomSubpane">
+            <summary>
+            At the bottom of the list of messages, tasks, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.RightSubpane">
+            <summary>
+            To the right of the list of messages, tasks, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.WebViewPane">
+            <summary>
+            The form will be shown as the folder home page.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.LeftSubpane">
+            <summary>
+            To the left of the list of messages, tasks, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.BottomOutlookBar">
+            <summary>At the bottom of the Outlook Bar in Outlook 2000 and 2002.</summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.BottomNavigationPane">
+            <summary>At the bottom of the Navigation Pane in Outlook 2003, 2007 and 2010.</summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.BottomTodoBar">
+            <summary>At the bottom of the To-Do Bar in Outlook 2007 and 2010.</summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.TopReadingPane">
+            <summary>
+            At the top of the Reading Pane's content
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.BottomReadingPane">
+            <summary>
+            At the bottom of the Reading Pane's content 
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.LeftReadingPane">
+            <summary>
+            To the left of the Reading Pane's content
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.RightReadingPane">
+            <summary>
+            To the right of the Reading Pane's content
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.ReadingPane">
+            <summary>
+            The form will be shown below the Reading Pane's content. This will also show a header allowing the end-user to switch between the form and the Reading Pane's content.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.FolderView">
+            <summary>
+            The form will be shown below the Reading Pane's content. This will also show a header allowing the end-user to switch between the form and the Reading Pane's content.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.DockTop">
+            <summary>At the top of the Outlook Explorer window in Outlook 2007 and 2010</summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.DockBottom">
+            <summary>At the bottom of the Outlook Explorer window in Outlook 2007 and 2010</summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.DockRight">
+            <summary>In the right part of the Outlook Explorer window in Outlook 2007 and 2010</summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlExplorerLayout.DockLeft">
+            <summary>In the left part of the Outlook Explorer window in Outlook 2007 and 2010</summary>   
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlExplorerAllowedDropRegions">
+            <summary>The Outlook Explorer regions to which and from which the user can
+            drag-and-drop the forms created by a given ADXOlFormsCollectionItem.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlSplitterBehavior">
+            <summary>Splitter behavior.</summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlSplitterBehavior.None">
+            <summary>The user is unable to resize the form. The developer is able to resize the
+            form programmatically.</summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlSplitterBehavior.Standard">
+            <summary>The user is able to resize, show, or hide the form. The developer is
+            unable to resize the form programmatically.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlInspectorLayout">
+            <summary>Regions available for embedding an ADXOlForm into inspector
+            windows.</summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlInspectorLayout.Unknown">
+            <summary>
+            The form will not be shown.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlInspectorLayout.TopSubpane">
+            <summary>
+            At the top of the body of the message, task, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlInspectorLayout.BottomSubpane">
+            <summary>
+            At the bottom of the body of the message, task, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlInspectorLayout.RightSubpane">
+            <summary>
+            In the right part of the body of the message, task, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlInspectorLayout.LeftSubpane">
+            <summary>
+            In the left part of the body of the message, task, etc
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlInspectorLayout.InspectorRegion">
+            <summary>
+            Underneath the body of the message, task, etc. This will also show a header allowing the end-user to switch between the form and the message itself.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlInspectorLayout.CompleteReplacement">
+            <summary>
+            Above the body of the message, task, etc. No controls allowing the end-user to switch between the form and the message will be shown.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlInspectorAllowedDropRegions">
+            <summary>The Outlook Inspector regions to which and from which the user can
+            drag-and-drop the forms created by a given ADXOlFormsCollectionItem.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlCachingStrategy">
+            <summary>Caching strategies when an ADXOlFom is embedded into an explorer
+            window.</summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlCachingStrategy.None">
+            <summary>A new instance of the ADXOlForm will be
+            created whenever the user switches between
+            folders.</summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlCachingStrategy.NewInstanceForEachFolder">
+            <summary>While in the same
+            explorer window, the same instance of the ADXOlForm will be shown whenever the
+            user navigates to the same folder.</summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlCachingStrategy.OneInstanceForAllFolders">
+            <summary>While in the same
+            explorer window, the same instance of the ADXOlForm will be shown for every
+            folder from the folder set that the FolderName(s), ExplorerMessgageClass(es),
+            and ExplorerItemTypes properties
+            constitute.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.SupportedInVisualDesignerAttribute">
+            <summary> 
+            This class supports the Add-in Express infrastructure and is not intended to be used directly from your code.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.SupportedInVisualDesignerAttribute.#ctor">
+            <summary>
+            Initializes an instance of the class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.SupportedInVisualDesignerAttribute.#ctor(System.Boolean)">
+            <summary> 
+            This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.
+            </summary>
+            <param name="visible">Determines whether a property will show up in the Add-in Express designer list.</param>
+        </member>
+        <member name="P:AddinExpress.OL.SupportedInVisualDesignerAttribute.Visible">
+            <summary> 
+            This property supports the Add-in Express infrastructure and is not intended to be used directly from your code.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.ADXErrorForm">
+            <summary>
+            Summary description for ADXErrorForm.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.ADXErrorForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXErrorForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXErrorForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.ADXForm">
+            <summary> The base class for a form embeddable into windows of the host
+            applications which are supported by the Add-in Express Extensions product
+            line.</summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.ADXForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.#ctor">
+            <summary>
+            Initializes an instance of the class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.Show">
+            <summary>
+            This method should be overridden by the descendants of the class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.Activate">
+            <summary>
+            Places the form on top of the set of ADXForm instances in the current layout.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.Hide">
+            <summary>
+            Hides the form.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXForm.Highlight">
+            <summary>
+            Flashes the specified instance of the form. It does not change the active state of the form.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.Text">
+            <summary>
+            Gets or sets the text associated with this form.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.Icon">
+            <summary>
+            Gets or sets the icon for the form.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.Visible">
+            <summary>
+            Gets or sets a value indicating whether the form is embedded.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.TransparencyKey">
+            <summary>
+            This property is not supported. 
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.Opacity">
+            <summary>
+            This property is not supported. 
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.AutoSize">
+            <summary>
+            Returns false. You cannot set this property.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.FormBorderStyle">
+            <summary>
+            Gets or sets the border style of the form.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.ADXForm.Active">
+            <summary>
+            Gets a boolean value indicating whether the form is on top of the set of ADXForm instances in the current layout.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.Extensions.ADXForm.Activated">
+            <summary>
+            Occurs when the form becomes placed on top of the set of ADXForm instances in the current layout.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.Extensions.ADXForm.Deactivate">
+            <summary>
+            Occurs when the form is moved from the top of the set of ADXForm instances in the current layout.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.ADXIntResource">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.#ctor">
+            <summary>
+            Initializes a new instance of the ADXIntResource class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.Renewal(System.Runtime.Remoting.Lifetime.ILease)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="lease">In the current version, this parameter is ignored.</param>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.GetInstance">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.Register">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.Unregister">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.LoadAssembly(System.AppDomain@)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="newDomain">The AppDomain instance that will be set.</param>
+        </member>
+        <member name="M:AddinExpress.Extensions.ADXIntResource.AssemblyResolveEventHandler(System.Object,System.ResolveEventArgs)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="sender">In the current version, this parameter is ignored.</param>
+            <param name="args">In the current version, this parameter is ignored.</param>
+        </member>
+        <member name="T:AddinExpress.Extensions.ADXCTPControl">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.WindowsAPI._EnumWindows">
+            <summary>
+            EnumWindows wrapper for .NET
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI._EnumWindows.GetWindows">
+            <summary>
+            Gets all top level windows on the system.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI._EnumWindows.GetWindows(System.IntPtr)">
+            <summary>
+            Gets all child windows of the specified window
+            </summary>
+            <param name="hWndParent">Window Handle to get children for</param>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI._EnumWindows.WindowEnum(System.IntPtr,System.Int32)">
+            <summary>
+            The enum Windows callback.
+            </summary>
+            <param name="hWnd">Window Handle</param>
+            <param name="lParam">Application defined value</param>
+            <returns>1 to continue enumeration, 0 to stop</returns>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI._EnumWindows.OnWindowEnum(System.IntPtr)">
+            <summary>
+            Called whenever a new window is about to be added
+            by the Window enumeration called from GetWindows.
+            If overriding this function, return true to continue
+            enumeration or false to stop.  If you do not call
+            the base implementation the Items collection will
+            be empty.
+            </summary>
+            <param name="hWnd">Window handle to add</param>
+            <returns>True to continue enumeration, False to stop</returns>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI._EnumWindows.Items">
+            <summary>
+            Returns the collection of windows returned by
+            GetWindows
+            </summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.WindowsAPI.EnumWindowsCollection">
+            <summary>
+            Holds a collection of Windows returned by GetWindows.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI.EnumWindowsCollection.Add(System.IntPtr)">
+            <summary>
+            Add a new Window to the collection.  Intended for
+            internal use by EnumWindows only.
+            </summary>
+            <param name="hWnd">Window handle to add</param>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI.EnumWindowsCollection.#ctor">
+            <summary>
+            Constructs a new EnumWindowsCollection object.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsCollection.Item(System.Int32)">
+            <summary>
+            Gets the Window at the specified index
+            </summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem">
+            <summary>
+            Provides details about a Window returned by the 
+            enumeration
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.hWnd">
+            <summary>
+            The window handle.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.GetHashCode">
+            <summary>
+            To allow items to be compared, the hash code
+            is set to the Window handle, so two EnumWindowsItem
+            objects for the same Window will be equal.
+            </summary>
+            <returns>The Window Handle for this window</returns>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Restore">
+            <summary>
+            Restores and Brings the window to the front, 
+            assuming it is a visible application window.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.#ctor(System.IntPtr)">
+            <summary>
+             Constructs a new instance of this class for
+             the specified Window Handle.
+            </summary>
+            <param name="hWnd">The Window Handle</param>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Handle">
+            <summary>
+            Gets the window's handle
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Text">
+            <summary>
+            Gets the window's title (caption)
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.ClassName">
+            <summary>
+            Gets the window's class name.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Iconic">
+            <summary>
+            Gets/Sets whether the window is iconic (mimimised) or not.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Maximised">
+            <summary>
+            Gets/Sets whether the window is maximised or not.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Visible">
+            <summary>
+            Gets whether the window is visible.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Rect">
+            <summary>
+            Gets the bounding rectangle of the window
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Location">
+            <summary>
+            Gets the location of the window relative to the screen.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.Size">
+            <summary>
+            Gets the size of the window.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.UnManagedMethods.FLASHW_STOP">
+            <summary>
+            Stop flashing. The system restores the window to its original state.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.UnManagedMethods.FLASHW_CAPTION">
+            <summary>
+            Flash the window caption. 
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.UnManagedMethods.FLASHW_TRAY">
+            <summary>
+            Flash the taskbar button.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.UnManagedMethods.FLASHW_ALL">
+            <summary>
+            Flash both the window caption and taskbar button.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.UnManagedMethods.FLASHW_TIMER">
+            <summary>
+            Flash continuously, until the FLASHW_STOP flag is set.
+            </summary>
+        </member>
+        <member name="F:AddinExpress.Extensions.WindowsAPI.EnumWindowsItem.UnManagedMethods.FLASHW_TIMERNOFG">
+            <summary>
+            Flash continuously until the window comes to the foreground. 
+            </summary>
+        </member>
+        <member name="T:AddinExpress.Extensions.AdxWMIEmulateWindow">
+            <summary>
+            Summary description for AdxWMIEmulateWindow.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.About.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlEventsCentre">
+            <summary>
+            Summary description for ADXOlEventsCentre.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFolderNamesCollection">
+            <summary>
+            A string collection.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFolderNamesCollection.#ctor(System.Object)">
+            <summary>Initializes a new instance of the class.</summary>
+            <param name="owner">An ADXOlFormsCollectionItem that owns the
+            collection.</param>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFolderNamesCollection.IndexOfFolderName(System.String)">
+            <summary>Returns an integer value which is the index of the specified folder
+            name in the collection. Returns zero, if the folder isn't found in the
+            collection.</summary>
+            <param name="folderName">The full path of the folder to find in the
+            collection.</param>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFolderNamesCollection.Owner">
+            <summary>Returns the ADXOlFormsCollectionItem that owns the
+            collection.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm">
+            <summary>A highly specific version of the System.Windows.Forms.Form class
+            designed for being embedded into Outlook windows.</summary>
+            <remarks>This class and its base class (AddinExpress.Extensions.ADXForm)
+            override a number of properties, methods and events of the
+            System.Windows.Forms.Form class and also add some new members. The list of
+            differencies include: 
+            <list type="bullet">
+            <item>
+            <description>Activate method - see AddinExpress.Extensions.ADXForm
+            </description></item>
+            <item>
+            <description>Dispose method </description></item>
+            <item>
+            <description>Hide method </description></item>
+            <item>
+            <description>Initialize method - see AddinExpress.Extensions.ADXForm
+            </description></item>
+            <item>
+            <description>OnLoad delegate </description></item>
+            <item>
+            <description>SetBoundsCore method - see AddinExpress.Extensions.ADXForm
+            </description></item>
+            <item>
+            <description>Show method </description></item>
+            <item>
+            <description>WndProc method - see AddinExpress.Extensions.ADXForm
+            </description></item>
+            <item>
+            <description>Active property </description></item>
+            <item>
+            <description>CreateParams property - see AddinExpress.Extensions.ADXForm
+            </description></item>
+            <item>
+            <description>ShowFocusCues property - see AddinExpress.Extensions.ADXForm
+            </description></item>
+            <item>
+            <description>Text property - see AddinExpress.Extensions.ADXForm
+            </description></item>
+            <item>
+            <description>Visible property - see AddinExpress.Extensions.ADXForm
+            </description></item>
+            <item>
+            <description>Activated event - see AddinExpress.Extensions.ADXForm
+            </description></item>
+            <item>
+            <description>Deactivate event - see AddinExpress.Extensions.ADXForm
+            </description></item></list>
+            <para>In addition, this class provides a number of members that relate to the
+            architecture of Add-in Express Extensions for Outlook. For instance, you can
+            access AddinModule, FormsManager, and Item properties. Also, if the form is
+            embedded into an Outlook window (Visible=True), you can access a number of
+            properties to get informed about the Outlook context for the form:
+            OutlookAppObj, ExplorerObj, FolderObj, and InspectorObj properties.</para>
+            <para>An ADXOlForm can be in one of three states determined by the Active and
+            Visible properties of the instance. When on top of the set of ADXOlForm
+            instances in a given layout, the Active property of the instance is True. This
+            state is called Active. When not on top of the set of ADXOlForm instances in the
+            layout, the Active property of the instance is False. This state is called
+            Visible. When not in any layout, the Visible property is False.</para>
+            <para>When you need to show a form in a usual way, say as a dialog window, use
+            the System.Windows.Forms.Form class.</para></remarks>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlForm.#ctor">
+            <summary>
+            Initializes a new instance of the class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlForm.Show">
+            <summary>Embeds the ADXOlForm into the region specified by the
+            ADXOlFormsCollectionItem (see the Item property).</summary>
+            <remarks>If the current Outlook context corresponds to the context defined by
+            the ADXOlFormsCollectionItem, the ADXOlForm will
+            be embedded into the corresponding layout and its Visible property will become
+            True. To move the form on top of the set of ADXOlForm instances in the region,
+            use the Activate method.</remarks>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlForm.Hide">
+            <summary>Hides the ADXOlForm.
+            </summary>
+            <remarks>The Visible property of the ADXOlForm becomes False.</remarks>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlForm.Dispose(System.Boolean)">
+            <summary>Disposes the ADXOlForm.</summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlForm.ActivateStandardPane">
+            <summary>
+            Activates a standard Outlook view when the InspectorRegion ADXOlInspectorLayout 
+            and ReadingPane, FolderView ADXOlExplorerLayouts are used.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlForm.ADXPostMessage(System.IntPtr,System.IntPtr)">
+            <summary>
+            Sends a custom message to the internal window of the add-in. 
+            When the message is received, the ADXOlForm raises the ADXPostMessageReceived event.
+            </summary>
+            <param name="wParam">A value that will be available in the ADXPostMessageReceived event.</param>
+            <param name="lParam">A value that will be available in the ADXPostMessageReceived event.</param>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.OutlookAppObj">
+            <summary> Returns a reference to the Outlook.Application object (a COM
+            Object).</summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.ExplorerObj">
+            <summary> If the form is embedded (ADXOlForm.Visible=True) into an Outlook explorer window,
+            returns a reference to the Outlook.Explorer object (a COM object). 
+            Otherwise, returns null (Nothing in VB.NET).</summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.FolderObj">
+            <summary> If the form is embedded (ADXOlForm.Visible=True) into an Outlook explorer window,
+            returns a reference to the current MAPIFolder object (a COM object). 
+            Otherwise, returns null (Nothing in VB.NET).
+            </summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.FolderItemsObj">
+            <summary> If the form is embedded (ADXOlForm.Visible=True) into an Outlook explorer window,
+            returns a reference to the Items collection (a COM object) of the Outlook folder returned by the FolderObj property. 
+            Otherwise, returns null (Nothing in VB.NET).</summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.InspectorObj">
+            <summary> If the form is embedded (ADXOlForm.Visible=True) into an Outlook inspector window,
+            returns a reference to the Outlook.Inspector object (a COM object). 
+            Otherwise, returns null (Nothing in VB.NET).</summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.FormsManager">
+            <summary>
+            Returns a reference to the Outlook Forms Manager.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.AddinModule">
+            <summary>
+            Returns a reference to the add-in module.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.Item">
+            <summary>
+            Returns the ADXOlFormsCollectionItem that controls the ADXOlForm.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.CurrentOutlookWindowHandle">
+            <summary>
+            Returns an IntPtr which is the handle of the current Outlook window into which the ADXOlForm is embedded. Returns IntPtr.Zero if the ADXOlForm isn't currently embedded.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.RegionState">
+            <summary>
+            Returns or sets the state of a region for a visible ADXOlForm. 
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXSplitterMove">
+            <summary>
+            Occurs when the user drags the splitter. 
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXDragOverMinimized">
+            <summary>
+            Occurs when an object is dragged over the ADXOlForm and the ADXOlForm is minimised.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXEnter">
+            <summary>
+            Occurs when the form is entered.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXLeave">
+            <summary>
+            Occurs when the input focus leaves the form.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXPostMessageReceived">
+            <summary>
+            Occurs after the ADXPostMessage method is called.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXKeyFilter">
+            <summary>If the focus is on the ADXOlForm, occurs whenever the user
+            presses a keyboard button. Allows determinig whether the button press should be
+            dispatched to the ADXOlForm or to Outlook.</summary>
+            <remarks>Note that whenever a button press is dispatched to Outlook, the focus is
+            moved to Outlook. It is highly recommended that the code in the event handler of this event run as quick as possible. Don't show any windows/forms/messages in the event handler. </remarks>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXCloseButtonClick">
+            <summary>
+            Occurs when the user clicks on the Close button.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXBeforeFormShow">
+            <summary>
+            Occurs before the ADXOlForm is shown.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXAfterFormShow">
+            <summary>
+            Occurs just after the form is shown.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXAfterFormHide">
+            <summary>
+            Occurs just after the form is hidden.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXSelectionChange">
+            <summary> Occurs when the user switches to a different item in a folder using
+            the user interface (UI) or programmatically. This event also occurs when the
+            user, either programmatically or using the UI, clicks or switches to a different
+            folder that contains items as Microsoft Outlook automatically selects the first
+            item in that folder. However, this event does not occur if the folder is a
+            file-system folder or if Outlook Today or any folder with a current Web view is
+            displayed.</summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXBeforeInspectorSubpaneClose">
+            <summary>This event is deprecated. Please use the Dispose method of the
+            ADXOlForm instead. 
+            <para>Occurs just before the ADXOlForm embedded into an inspector layout is
+            disposed.</para></summary>
+            <remarks>When an inspector window closes, the ADXOlForm isn't disposed. Instead,
+            it is disposed on the next NewInspector event of Outlook. In this moment, all
+            inspector forms are checked and, if there is no inspector window that
+            corresponds to this ADXOlForm, the form is disposed.</remarks>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXFolderSwitch">
+            <summary>
+            Occurs after the Outlook.FolderSwitch event is raised and the ADXOlForm is displayed.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXNewInspector">
+            <summary>
+            Occurs after the Outlook.NewInspector event is raised and the ADXOlForm is displayed.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlForm.ADXInspectorActivate">
+            <summary>
+            Occurs just after the Outlook.InspectorActivate event is raised.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.ADXSplitterMoveEventArgs">
+            <summary>
+             Provides data for the ADXSplitterMove event of ADXOlForm.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.ADXSplitterMoveEventArgs.NewRegionSize">
+            <summary>
+             Returns a Size containing a new size of ADXOlForm.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.ADXSplitterMoveEventArgs.Cancel">
+            <summary>
+             If set to true, the user cannot move the splitter and, consequently, change the size of ADXOlForm.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.ADXSplitterMoveEventHandler">
+            <summary>
+            Represents the method that handles the ADXSplitterMove event of ADXOlForm.
+            </summary>
+            <param name="sender">The ADXOlForm which is the source of the event.</param>
+            <param name="e">An ADXSplitterMoveEventArgs that provides event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.ADXCloseButtonClickEventArgs">
+            <summary>
+            Provides data for the ADXCloseButtonClick event of the ADXOlForm.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.ADXCloseButtonClickEventArgs.CloseForm">
+            <summary>
+            If true, the form will be closed. Default - true.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.ADXCloseButtonClickEventArgs.DisableItem">
+            <summary>
+            If true, the item corresponding to the form will be disabled. Default - false.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.ADXAfterFormHideEventArgs">
+            <summary>
+            Provides data for the ADXAfterFormHide event of the ADXOlForm.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.ADXCloseButtonClickEventHandler">
+            <summary>
+            Represents the method that handles the ADXCloseButtonClick event of the ADXOlForm.
+            </summary>
+            <param name="sender">The ADXOlForm which is the source of the event.</param>
+            <param name="e">An ADXCloseButtonClickEventArgs that provides event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.ADXAfterFormHideEventHandler">
+            <summary>
+            Represents the method that handles the ADXAfterFormHide event of the ADXOlForm.
+            </summary>
+            <param name="sender">The ADXOlForm that is the source of the event.</param>
+            <param name="e">An ADXAfterFormHideEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.BeforeFormShow_EventHandler">
+            <summary>
+            Represents the method that handles the ADXBeforeFormShow event of the ADXOlForm.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.AfterFormShow_EventHandler">
+            <summary>
+            Represents the method that handles the ADXAfterFormShow event of the ADXOlForm.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.SelectionChange_EventHandler">
+            <summary>
+            Represents the method that handles the ADXSelectionChange event of the ADXOlForm.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.BeforeInspectorSubpaneClose_EventHandler">
+            <summary>
+            Represents the method that handles the ADXBeforeInspectorSubpaneClose event of the ADXOlForm.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.ADXDragOverMinimizedEventArgs">
+            <summary>
+            Provides data for the ADXDragOverMinimized event of the ADXOlForm.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlForm.ADXDragOverMinimizedEventArgs.Expand">
+            <summary>
+            If true, the minimised ADXOlForm will be expanded.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.DragOverMinimized_EventHandler">
+            <summary>
+            Represents the method that handles the ADXDragOverMinimized event of the ADXOlForm.
+            </summary>
+            <param name="sender">The ADXOlForm that is the source of the event.</param>
+            <param name="e">An ADXDragOverMinimizedEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.ADXFolderSwitchEventArgs">
+            <summary>
+            Provides data for the ADXFolderSwitch event of the ADXOlForm.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.ADXFolderSwitchEventHandler">
+            <summary>
+            Represents the method that handles the ADXFolderSwitch event of the ADXOlForm.
+            </summary>
+            <param name="sender">The ADXOlForm that is the source of the event.</param>
+            <param name="args">An ADXFolderSwitchEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.ADXNewInspectorEventArgs">
+            <summary>
+            Provides data for the ADXNewInspector event of the ADXOlForm.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.ADXNewInspectorEventHandler">
+            <summary>
+            Represents the method that handles the ADXNewInspector event of the ADXOlForm.
+            </summary>
+            <param name="sender">The ADXOlForm that is the source of the event.</param>
+            <param name="args">An ADXNewInspectorEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.ADXInspectorActivateEventArgs">
+            <summary>
+            Provides data for the ADXInspectorActivate event of the ADXOlForm.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlForm.ADXInspectorActivateEventHandler">
+            <summary>
+            Represents the method that handles the ADXInspectorActivate event of the ADXOlForm.
+            </summary>
+            <param name="sender">The ADXOlForm that is the source of the event.</param>
+            <param name="args">An ADXInspectorActivateEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXEnterEventArgs">
+            <summary>
+            Provides data for the ADXEnter event of the ADXOlForm.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXEnterEventHandler">
+            <summary>
+            Represents the method that handles the ADXEnter event of the ADXOlForm.
+            </summary>
+            <param name="sender">The ADXOlForm which is the source of the event.</param>
+            <param name="e">An ADXEnterEventArgs that provides event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXLeaveEventArgs">
+            <summary>
+            Provides data for the ADXLeave event of the ADXOlForm.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXLeaveEventHandler">
+            <summary>
+            Represents the method that handles the ADXLeave event of the ADXOlForm.
+            </summary>
+            <param name="sender">The ADXOlForm which is the source of the event.</param>
+            <param name="e">An ADXLeaveEventArgs that provides event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXPostMessageReceivedEventArgs">
+            <summary>
+            Provides data for the ADXPostMessageReceived event of the ADXOlForm.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXPostMessageReceivedEventArgs.WParam">
+            <summary>
+            This is a message-specific parameter from the ADXOlForm.ADXPostMessage method.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXPostMessageReceivedEventArgs.LParam">
+            <summary>
+            This is a message-specific parameter from the ADXOlForm.ADXPostMessage method.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXPostMessageReceivedEventHandler">
+            <summary>
+            Represents the method that handles the ADXPostMessageReceived event of the ADXOlForm.
+            </summary>
+            <param name="sender">The ADXOlForm which is the source of the event.</param>
+            <param name="e">An ADXPostMessageReceivedEventArgs that provides event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlKeyFilterEventHandler">
+            <summary>
+            Represents the method that handles the ADXKeyFilter event of the ADXOlForm.
+            </summary>
+            <param name="sender">The ADXOlForm which is the source of the event.</param>
+            <param name="e">An ADXOlKeyFilterEventArgs which contains event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlKeyState">
+            <summary>
+            The key states.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlKeyFilterAction">
+            <summary>
+            The action to be performed as a result of the ADXKeyFilter event.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlKeyFilterEventArgs">
+            <summary>
+            Provides data for the ADXKeyFilter event of the ADXOlForm. 
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlKeyFilterEventArgs.Alt">
+            <summary>
+            Returns True, if an Alt button is pressed.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlKeyFilterEventArgs.Control">
+            <summary>
+            Returns True, if a Ctrl button is pressed.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlKeyFilterEventArgs.Shift">
+            <summary>
+            Returns True, if a Shift button is pressed.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlKeyFilterEventArgs.KeyCode">
+            <summary>
+            Returns a member of System.Windows.Forms.Keys enumeration what corresponds to the button which is pressed.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlKeyFilterEventArgs.KeyValue">
+            <summary>
+            Returns the keyboard value for the ADXKeyFilter event.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlKeyFilterEventArgs.State">
+            <summary>
+            Returns the state of the keyboard button.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlKeyFilterEventArgs.Action">
+            <summary>
+            Returns or sets a value that determines if the keyboard event should be dispatched to the ADXExcelTaskPane or to Excel. If specified as SendToHostApplication, also moves the focus off the ADXExcelTaskPane to Excel. 
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsCollection">
+            <summary>
+            A collection of items that manage form embedding. Every item (of the ADXOlFormsCollectionItem type) specifies the form (of the ADXOlForm type) to be embedded as well as position and other aspects of form embedding.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollection.#ctor">
+            <summary>
+            Initializes a new instance of the class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollection.#ctor(System.Int32)">
+            <summary> Initializes a new instance of the class. The capacity parameter is
+            ignored.</summary>
+            <param name="capacity">In the current version, this parameter is ignored.</param>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollection.#ctor(AddinExpress.OL.ADXOlFormsManager)">
+            <summary>
+            Initializes a new instance of the class and specifies the ADXOlFormsManager which is the owner of the ADXOlFormsCollection.
+            </summary>
+            <param name="owner">An instance of ADXOlFormsManager.</param>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollection.Copy">
+            <summary>
+            Creates a new ADXOlFormsCollection object and copies all collection items to this object.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollection.Clear">
+            <summary>
+            Removes all objects from the ADXOlFormsCollection instance.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollection.Add(AddinExpress.OL.ADXOlFormsCollectionItem)">
+            <summary>
+            Adds an ADXOlFormsCollectionItem to the end of the ADXOlFormsCollection.
+            </summary>
+            <param name="formsItem">The ADXOlFormsCollectionItem to be added to the end of the ADXOlFormsCollection.</param>
+            <returns>Either the ADXOlFormsCollectionItem (existing or just added) or null (Nothing in VB.NET).</returns>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollection.RemoveAt(System.Int32)">
+            <summary>
+            Removes the ADXOlFormsCollectionItem at the specified index of the ADXOlFormsCollection.
+            </summary>
+            <param name="index">The zero-based index of the ADXOlFormsCollectionItem to remove. </param>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollection.IndexOf(AddinExpress.OL.ADXOlFormsCollectionItem)">
+            <summary>
+            Searches for the specified ADXOlFormsCollectionItem and returns the zero-based index of the first occurrence within the entire ADXOlFormsCollection.
+            </summary>
+            <param name="formsItem">The ADXOlFormsCollectionItem to locate in the collection.</param>
+            <returns>The zero-based index of the first occurrence of value within the entire ADXOlFormsCollection, if found; otherwise, -1.</returns>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollection.Contains(System.Object)">
+            <summary> Determines whether an element is in the
+            ADXOlFormsCollection.</summary>
+            <param name="formsItem">The Object to locate in the ADXOlFormsCollection. The
+            value can be a null reference (Nothing in Visual Basic).</param>
+            <returns><b>true</b> if <i>formsItem</i> is found in the ADXOlFormsCollection;
+            otherwise, <b>false</b>.</returns>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollection.Remove(AddinExpress.OL.ADXOlFormsCollectionItem)">
+            <summary>
+            Removes the item from the ADXOlFormsCollection,
+            </summary>
+            <param name="formsItem">The ADXOlFormsCollectionItem to remove from the ADXOlFormsCollection.</param>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollection.Owner">
+            <summary>
+            Returns an ADXOlFormsManager which is the owner of the ADXOlFormsCollection.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollection.Item(System.Int32)">
+            <summary>
+            Returns an ADXOlFormsCollectionItem at the specified index.
+            </summary>
+            <param name="index">The zero-based index of the element to get.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsCollectionItem">
+            <summary> Represents an item in an ADXOlFormsCollection.</summary>
+            <remarks>First off, you specify an ADXOlForm in the FormClassName property and
+            set the Enabled property to True. 
+            <para>To show instances of the ADXOlForm in <b>explorer windows</b>, specify an
+            appropriate layout in the ExplorerLayout property. For <b>inspector windows</b>,
+            use the InspectorLayout property. Note that you can use these properties
+            simultaneously. </para>
+            <para>Use the ExplorerItemTypes, FolderName(s) and ExplorerMessageClass(es)
+            properties to add context-sensitivity to ADXOlForm instances embedded into
+            <b>explorer windows</b>. For <b>inspector windows</b>, use the FolderName(s),
+            InspectorItemTypes and InspectorMessageClass(es) properties.</para>
+            <para>For explorer windows only, ADXOlForm can be cached. You specify the
+            caching strategy of your choice in the Cached property.</para>
+            <para>To be able to resize the ADXOlForm programmatically, you set the Splitter
+            property to None.</para></remarks>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollectionItem.FormInstances(System.Int32)">
+            <summary>
+            Returns an instance of the ADXOlForm (specified in the FormClassName property) at the specified index in the form instance collection.
+            </summary>
+            <param name="index">The zero-based index of the form instance to get.</param>
+            <returns>The instance of the ADXOlForm at the specified index.</returns>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollectionItem.#ctor">
+            <summary>
+            Initializes a new instance of the class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollectionItem.#ctor(System.ComponentModel.IContainer)">
+            <summary>
+            Initializes a new instance of the class.
+            </summary>
+            <param name="container">An IContainer that represents the container for the component.</param>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlFormsCollectionItem.inspectorMessageClass">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlFormsCollectionItem.inspectorMessageClasses">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlFormsCollectionItem.explorerMessageClass">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlFormsCollectionItem.explorerMessageClasses">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollectionItem.ApplyTo(System.Object)">
+            <summary>
+            If the specified Outlook context corresponds to the context specified in the ADXOlFormsCollectionItem properties, creates an instance of the ADXOlForm (if it isn't created yet) and shows it.
+            </summary>
+            <param name="ExplorerOrInspectorObj">An Outlook explorer or inspector object (a COM object) that constitutes the Outlook context.</param>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsCollectionItem.GetCurrentForm(AddinExpress.OL.EmbeddedFormStates)">
+            <summary> Returns an instance of the ADXOlForm (specified in the FormClassName
+            property) in the specified state.</summary>
+            <remarks>An instance of the ADXOlForm can be in one of three states determined
+            by the Active and Visible properties of the instance. When on top of the set of
+            ADXOlForm instances in a given layout, the Active property of the instance is
+            True. This state is called Active. When not on top of the set of ADXOlForm
+            instances in the layout, the Active property of the instance is False. This
+            state is called Visible. When not in any layout, the Visible property is
+            False.</remarks>
+            <param name="EmbeddedFormState">The state of the instance of the
+            ADXOlForm.</param>
+            <returns>The instance of the ADXOlForm or null (Nothing in VB.NET).</returns>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.FormInstanceCount">
+            <summary>
+            Returns the number of ADXOlForm instances currently opened by the ADXOlFormsCollectionItem.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.Collection">
+            <summary>
+            Returns the ADXOlFormsCollection which is the parent of the ADXOlFormsCollectionItem.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.FolderName">
+            <summary>A context-sensitivity related property that returns or sets the full
+            path of the folder to be processed by the ADXOlFormsCollectionItem. For
+            instance, <b><i>&quot;Personal Folder\Inbox&quot;</i></b>. Also supports a
+            special string value - &quot;*&quot; - which gets the ADXOlFormsCollectionItem
+            to process all folders.</summary>
+            <remarks>If ExplorerLayout is anything else but Unknown, specifying a folder
+            name in this property will result in showing an instance of the ADXOlForm (specified in the FormClassName property) when
+            the user navigates to this folder in an explorer window. If InspectorLayout is
+            anything else but Unknown, an instance of the ADXOlForm will be shown in every
+            Outlook inspector that has CurrentItem.Parent referencing to the folder
+            specified in this property. 
+            <para>If several context-sensitivity related properties are set simultaneously,
+            the Add-in Express Extensions for Outlook handles them using the <b>OR</b>
+            boolean operator.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.FolderNames">
+            <summary>A context-sensitivity related property that returns or sets an
+            ADXOlFolderNamesCollection that stores full paths of the folders to be processed
+            by the ADXOlFormsCollectionItem.</summary>
+            <remarks>If ExplorerLayout is anything else but Unknown, specifying folder names
+            in the ADXOlFolderNamesCollection will result in showing an instance of the
+            ADXOlForm (specified in the FormClassName property) when the user navigates to any of these folders in an explorer window.
+            If InspectorLayout is anything else but Unknown, an instance of the ADXOlForm
+            will be shown in every Outlook inspector that has CurrentItem.Parent referencing
+            to any folder listed in the ADXOlFolderNamesCollection. 
+            <para>If several context-sensitivity related properties are set simultaneously,
+            the Add-in Express Extensions for Outlook handles them using the <b>OR</b>
+            boolean operator.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.InspectorMessageClass">
+            <summary>A context-sensitivity related property that returns or sets a string
+            value which specifies the message class to be processed by the
+            ADXOlFormsCollectionItem. For instance,
+            <b><i>&quot;IPM.NOTE&quot;</i></b>.</summary>
+            <remarks>If InspectorLayout is anything else but Unknown, an instance of the ADXOlForm (specified in the FormClassName property) will
+            be shown in every Outlook inspector that has the CurrentItem.MessageClass property value equal to the value of this property. 
+            <para>If several context-sensitivity related properties are set simultaneously,
+            the Add-in Express Extensions for Outlook handles them using the <b>OR</b>
+            boolean operator.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.InspectorMessageClasses">
+            <summary>A context-sensitivity related property that returns or sets an
+            ADXOlMessageClassesCollection which stores message classes to be processed by
+            the ADXOlFormsCollectionItem.</summary>
+            <remarks>If InspectorLayout is anything else but Unknown, an instance of the
+            ADXOlForm (specified in the FormClassName property) will be shown in every Outlook inspector that has the
+            CurrentItem.MessageClass value equal to any of the values listed in the
+            ADXOlMessageClassesCollection. 
+            <para>If several context-sensitivity related properties are set simultaneously,
+            the Add-in Express Extensions for Outlook handles them using the <b>OR</b>
+            boolean operator.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.ExplorerMessageClass">
+            <summary>A context-sensitivity related property that returns or sets a string
+            value which specifies the message class to be processed by the
+            ADXOlFormsCollectionItem. For instance,
+            <b><i>&quot;IPM.NOTE&quot;</i></b>.</summary>
+            <remarks>If ExplorerLayout is anything else but Unknown, specifying a message
+            class in this property will result in showing an instance of the ADXOlForm (specified in the FormClassName property) when
+            the user navigates to a folder that has the same value in the
+            DefaultMessageClass property. 
+            <para>If several context-sensitivity related properties are set simultaneously,
+            the Add-in Express Extensions for Outlook handles them using the <b>OR</b>
+            boolean operator.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.ExplorerMessageClasses">
+            <summary>A context-sensitivity related property that returns or sets an
+            ADXOlMessageClassesCollection which stores message classes to be processed by
+            the ADXOlFormsCollectionItem.</summary>
+            <remarks>If ExplorerLayout is anything else but Unknown, specifying message
+            classes in the ADXOlMessageClassesCollection will result in showing an instance
+            of the ADXOlForm (specified in the FormClassName property) when the user navigates to a folder that has the
+            DefaultMessageClass property value equal to any of the values listed in the
+            ADXOlMessageClassesCollection. 
+            <para>If several context-sensitivity related properties are set simultaneously,
+            the Add-in Express Extensions for Outlook handles them using the <b>OR</b>
+            boolean operator.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.ExplorerItemTypes">
+            <summary>A context-sensitivity related property that returns or sets which item
+            types will be processed by the ADXOlFormsCollectionItem. For instance,
+            <b><i>ADXOlExplorerItemTypes.olMailItem</i></b>.</summary>
+            <remarks>If ExplorerLayout is anything else but Unknown, specifying item types
+            in this property will result in showing an instance of the ADXOlForm (specified in the FormClassName property) when the
+            user navigates to a folder that has the DefaultItemType property value equal to
+            any of the values listed in this property. 
+            <para>If several context-sensitivity related properties are set simultaneously,
+            the Add-in Express Extensions for Outlook handles them using the <b>OR</b>
+            boolean operator.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.InspectorItemTypes">
+            <summary>A context-sensitivity related property that returns or sets which item
+            types will be processed by the ADXOlFormsCollectionItem. For instance,
+            <b><i>ADXOlInspectorItemTypes.olMail</i></b>.</summary>
+            <remarks>If InspectorLayout is anything else but Unknown, an instance of the
+            ADXOlForm (specified in the FormClassName property) will be shown in every Outlook inspector that displays an item the
+            type of which is listed in this property. 
+            <para>If several context-sensitivity related properties are set simultaneously,
+            the Add-in Express Extensions for Outlook handles them using the <b>OR</b>
+            boolean operator.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.InspectorMode">
+            <summary>
+            A context-sensitivity related property that returns or sets which item types will be processed by the ADXOlFormsCollectionItem.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.InspectorLayout">
+            <summary>
+            Returns or sets which advanced form region will be used to show an instance of the ADXOlForm specified in the FormClassName property.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.InspectorAllowedDropRegions">
+            <summary>Returns or sets a value (or a combination of values) of the
+            ADXOlInspectorAllowedDropRegions type, specifying the regions to which and from
+            which the user can drag-and-drop the forms created by the current
+            ADXOlFormsCollectionItem.</summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.IsDragDropAllowed">
+            <summary>Returns or sets a Boolean value specifying if the user can
+            drag-and-drop forms created by the current ADXOlFormsCollectionItem to the
+            positions specified by the ExplorerAllowedDropRegions and/or
+            InspectorAllowedDropRegions properties of the same
+            ADXOlFormsCollectionItem.</summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.UseOfficeThemeForBackground">
+            <summary>
+            If set to true, the color of the current Office theme is used to paint the background of ADXOlForm. Otherwise, the color set at design-time is used. 
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.RestoreFromMinimizedState">
+            <summary>Returns or sets a Boolean value specifying the display of the form
+            created by the current ADXOlFormsCollectionItem when the region is reduced to
+            the size of the form caption (i.e. when it is in the minimized state) and the
+            user clicks on the form caption. If the value is true, the region will be
+            restored to the normal state. If the value is false, the form will pop-up
+            overlaying the adjoining part of the Outlook window, in which the form is
+            embedded.</summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.FormClassName">
+            <summary>
+            Returns or sets the class name of an ADXOlForm instances of which will be created and shown by the ADXOlFormsCollectionItem.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.AlwaysShowHeader">
+            <summary> If true, the header (displaying the value of the ADXOlForm.Text
+            property) will always be shown independent on the number of form instances in
+            the region.</summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.CloseButton">
+            <summary> If true, the close button will be displayed for every instance of
+            ADXOlForm which class name is specified in the FormClassName property. When the
+            user clicks the button, the corresponding ADXOlForm fires the
+            ADXCloseButtonClick event.</summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.IsHiddenStateAllowed">
+             <summary> If false, the hidden state will be unavailable through the user interface 
+             for the region showing an instance of ADXOlForm whose class name is specified 
+             in the FormClassName property. 
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.Enabled">
+            <summary>
+            If false, no form instances will be created and shown.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.Cached">
+            <summary>Specifies a caching strategy for the ADXOlForm (specified in the
+            FormClassName property).</summary>
+            <remarks>This property has no effect if ExplorerLayout is Unknown. Also, it has
+            no effect for any InspectorLayout value. 
+            <list type="bullet">
+            <item>
+            <description>ADXOlCachingStrategy.None - a new instance of the ADXOlForm will be
+            created whenever the user switches between
+            folders.</description></item>
+            <item>
+            <description>ADXOlCachingStrategy.NewInstanceForEachFolder - while in the same
+            explorer window, the same instance of the ADXOlForm will be shown whenever the
+            user navigates to the same folder.</description></item>
+            <item>
+            <description>ADXOlCachingStrategy.OneInstanceForAllFolders - while in the same
+            explorer window, the same instance of the ADXOlForm will be shown for every
+            folder from the folder set that the FolderName(s), ExplorerMessgageClass(es),
+            and ExplorerItemTypes properties
+            constitute.</description></item></list></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.ExplorerLayout">
+            <summary>Returns or sets which Web view or folder view region will be used to
+            show an instance of the ADXOlForm specified in the FormClassName
+            property.</summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.ExplorerAllowedDropRegions">
+            <summary>Returns or sets a value (or a combination of values) of the
+            ADXOlExplorerAllowedDropRegions type, specifying the regions to which and from
+            which the user can drag-and-drop the forms created by the current
+            ADXOlFormsCollectionItem.</summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.Splitter">
+            <summary>Returns or sets the splitter type for instances of an ADXOlForm
+            specified in the FormClassName property. When set to
+            ADXOlSplitterBehavior.Standard, the user is able to resize and show/hide the
+            form. When set to ADXOlSplitterBehavior.None, the developer is able to resize
+            the form programmatically.</summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.Tag">
+            <summary>Returns or sets a string value that can be used to store data
+            associated with the ADXOlFormsCollectionItem.</summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.DefaultRegionState">
+            <summary>Returns or sets a value of the ADXRegionState type that specify the
+            default state of the region to which the forms created by the current
+            ADXOlFormsCollectionItem will be embedded. The value specified by this property
+            is applied only once - if no Add-in Express forms were ever embedded in the
+            regions specified by the current ADXOlFormsCollectionItem when your add-in is
+            run on a given PC for the very first time. In all other circumstances, the state
+            of the region is controlled by the user.</summary>
+            <remarks>A region can be in the following states: normal, hidden (collapsed to a
+            5px wide strip), minimized (reduced to the size of the form caption).</remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsCollectionItem.RegionBorder">
+            <summary>
+            Determines whether to show a frame arround the region or not to show.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager">
+            <summary>Outlook Forms Manager. The main class of the Add-in Express
+            Extensions for Outlook.</summary>
+            <remarks>The folowing classes constitute the architecture of the Add-in Express
+            Extensions for Outlook: 
+            <list type="bullet">
+            <item>
+            <description>ADXOlFormsManager</description></item>
+            <item>
+            <description>ADXOlFormsCollection</description></item>
+            <item>
+            <description>ADXOlFormsCollectionItem</description></item>
+            <item>
+            <description>ADXOlForm</description></item></list>
+            <para>You start with adding an item to the Items collection and binding it to an
+            ADXOlForm which is the base class for every form embeddable into Outlook
+            windows. Then you process events provided in ADXOlFormsManager and ADXOlForm.
+            </para>
+            <para>The most notable events in this class are ADXBeforeFolderSwitchEx,
+            ADXFolderSwitchEx and ADXBeforeFormInstanceCreate.</para></remarks>
+        </member>
+        <member name="F:AddinExpress.OL.ADXOlFormsManager.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsManager.#ctor">
+            <summary>
+            Initializes a new instance of the class.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsManager.#ctor(System.ComponentModel.IContainer)">
+            <summary>
+            Initializes a new instance of the class.
+            </summary>
+            <param name="container">An IContainer that represents the container for the component.</param>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsManager.SetOwner(System.Object)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.
+            </summary>
+            <param name="AddinModule">An instance of the Add-in Express AddinModule class.</param>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsManager.GetTextEditor(System.Object)">
+            <summary>
+            Returns either an object of the ITextDocument type or null (Nothing in VB). 
+            Remarks. Use this method to access the text editor for plain-text and RTF e-mails in Outlook 2000-2007. 
+            Use the WordEditor and HTMLEditor properties to access the message text in Word and HTML e-mails. 
+            Find more details about the ITextDocument type at http://msdn.microsoft.com/en-us/library/bb774052(VS.85).aspx.
+            </summary>
+            <param name="InspectorObj">An Outlook inspector object (a COM object).</param>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsManager.LockUpdates">
+            <summary>
+            This method was left for compatibility purposes only. In the current version of Add-in Express .NET Extensions for Outlook, it doesn't do anything.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlFormsManager.UnlockUpdates">
+            <summary>
+            This method was left for compatibility purposes only. In the current version of Add-in Express .NET Extensions for Outlook, it doesn't do anything.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsManager.AddinModule">
+            <summary>
+            Returns the add-in module the component is located on.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsManager.OutlookAppObj">
+            <summary>
+            Returns a reference to Outlook.Application (a COM object).
+            </summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsManager.CurrentForm">
+            <summary>
+            Always returns null. Use the GetCurrentForm method of the ADXOlFormsCollectionItem class instead.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlFormsManager.Items">
+            <summary>
+            A collection of items that manage form embedding. Every item (of the ADXOlFormsCollectionItem type) specifies the form to be embedded as well as the position and other aspects of form embedding.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXBeforeFolderSwitch">
+            <summary>
+            Occurs before an Outlook explorer goes to a new folder, either as a result of user action or through program code.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXBeforeFolderSwitchEx">
+            <summary>
+            Occurs before an Outlook explorer goes to a new folder, either as a result of user action or through program code.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXFolderSwitch">
+            <summary>
+            Occurs when an Outlook explorer goes to a new folder, either as a result of user action or through program code.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXFolderSwitchEx">
+            <summary>
+            Occurs when an Outlook explorer goes to a new folder, either as a result of user action or through program code.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.OnInitialize">
+            <summary>
+            Occurs before Forms Manager is initialized.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXNewInspector">
+            <summary>
+            Occurs whenever a new inspector window is opened, either as a result of user action or through program code.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXBeforeFormInstanceCreate">
+            <summary>
+            Occurs before a form instance (of the ADXOlForm type) is created. Allows preventing the creation of the instance. 
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXNavigationPaneHide">
+            <summary>
+            Occurs when the Navigation Pane (2003, 2007), Outlook Bar (2000, 2002) or Folder List (2000, 2002) is hidden.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXNavigationPaneMinimize">
+            <summary>
+            Occurs when the Navigation Pane (2003, 2007) is minimized.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXNavigationPaneShow">
+            <summary>
+            Occurs when the Navigation Pane (2003, 2007), Outlook Bar (2000, 2002) or Folder List (2000, 2002) is shown, but before any forms (of the ADXOlForm type) are shown.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXReadingPaneHide">
+            <summary>
+            Occurs when the Reading Pane is hidden.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXReadingPaneShow">
+            <summary>
+            Occurs when the Reading Pane is shown, but before any forms (of the ADXOlForm type) are shown. Allows determining the layout in which the Reading Pane is shown.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXReadingPaneMove">
+            <summary>
+            Occurs when the Reading Pane position is changed. Allows determining the layout in which the Reading Pane is shown.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXTodoBarHide">
+            <summary>
+            Occurs when the Todo Bar is hidden.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXTodoBarMinimize">
+            <summary>
+            Occurs when the Todo Bar is minimized.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.ADXTodoBarShow">
+            <summary>
+            Occurs when the Todo Bar is shown, but before any forms (of the ADXOlForm type) are shown.
+            </summary>
+        </member>
+        <member name="E:AddinExpress.OL.ADXOlFormsManager.OnError">
+            <summary>
+            Occurs when ADXOlFormaManager generates an exception.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.Error_EventHandler">
+            <summary> Represents the method that handles the ADXOlFormsManager.OnError
+            event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">An ErrorEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.BeforeFolderSwitch_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXBeforeFolderSwitch event.</summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+            <param name="explorerObj">The Outlook explorer (a COM object) that is the source
+            of the event.</param>
+            <param name="SrcItem">The ADXOlFormsCollectionItem that embeds a form into the
+            explorer window for the folder specified in the SrcFolder parameter.</param>
+            <param name="SrcFolder">The Outlook.MAPIFolder (a COM object) the explorer is
+            switching from.</param>
+            <param name="DstItem">The ADXOlFormsCollectionItem that embeds a form into the
+            explorer window for the folder specified in the DstFolder parameter.</param>
+            <param name="DstFolder">The Outlook.MAPIFolder (a COM object) the explorer is
+            switching to.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.BeforeFolderSwitchEx_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXBeforeFolderSwitchEx event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">A BeforeFolderSwitchExEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.FolderSwitch_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXFolderSwitch event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">A FolderSwitchEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.FolderSwitchEx_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXFolderSwitchEx event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">A FolderSwitchExEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.OnComponentInitialize_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.OnInitialize event.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.NewInspector_EventHandler">
+            <summary> Represents the method that handles the ADXOlFormsManager.ADXNewInspector
+            event.</summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+            <param name="inspectorObj">The inspector (a COM object) that was opened.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.BeforeFormInstanceCreate_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXBeforeFormInstanceCreate event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">A BeforeFormInstanceCreateEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.NavigationPaneHide_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXNavigationPaneHide event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">A NavigationPaneHideEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.NavigationPaneShow_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXNavigationPaneShow event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">A NavigationPaneShowEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.NavigationPaneMinimize_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXNavigationPaneMinimize event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">A NavigationPaneMinimizeEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.ReadingPaneHide_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXReadingPaneHide event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">A ReadingPaneHideEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.ReadingPaneShow_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXReadingPaneShow event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">A ReadingPaneShowEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.ReadingPaneMove_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXReadingPaneMove event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">A ReadingPaneMoveEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.TodoBarHide_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXTodoBarHide event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">A TodoBarHideEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.TodoBarShow_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXTodoBarShow event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">A TodoBarShowEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.TodoBarMinimize_EventHandler">
+            <summary> Represents the method that handles the
+            ADXOlFormsManager.ADXTodoBarMinimize event.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">A TodoBarMinimizeEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.BeforeAccessProtectedObject_EventHandler">
+            <summary> Event handler that allows executing the code immediately before ADXOlFormsManager 
+            accesses a protected Outlook object.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlFormsManager.AfterAccessProtectedObject_EventHandler">
+            <summary> Event handler that allows executing the code immediately after ADXOlFormsManager 
+            accesses a protected Outlook object.</summary>
+            <param name="sender">The ADXOlFormsManager that is the source of the event.</param>
+            <param name="args">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="T:AddinExpress.OL.ErrorEventArgs">
+            <summary>
+            Provides data for the OnError event.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ErrorEventArgs.Exception">
+            <summary>
+            Returns the exception that is the cause of the event.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ErrorEventArgs.Handled">
+            <summary>
+            Returns or sets a boolean value that specifies if the OnError event is handled by the developer. If it is false (default), the Extensions shows an error dialog.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.FolderSwitchEventArgs">
+            <summary>
+            Provides data for the ADXFolderSwitch event of ADXOlFormsManager.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.FolderSwitchEventArgs.ShowForm">
+            <summary>
+            Returns or sets a boolean value that specifies if the form managed by the item specified in the DstItem member should be embedded.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.FolderSwitchEventArgs.ExplorerObj">
+            <summary>
+            The Outlook.Explorer (a COM object) in which the folder switch has occured.
+            </summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.FolderSwitchEventArgs.DstItem">
+            <summary>
+            The ADXOlFormsCollectionItem that embeds a form into the explorer window for the folder specified in the DstFolder member.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.FolderSwitchEventArgs.DstFolder">
+            <summary>
+            The Outlook.MAPIFolder (a COM object) the explorer has switched to.
+            </summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="T:AddinExpress.OL.FolderSwitchExEventArgs">
+            <summary>
+            Provides data for the ADXFolderSwitchEx event of ADXOlFormsManager.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.FolderSwitchExEventArgs.ExplorerObj">
+            <summary>
+            The Outlook.Explorer (a COM object) that the folder switch has occured in.
+            </summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.FolderSwitchExEventArgs.FolderObj">
+            <summary>
+            The Outlook.MAPIFolder (a COM object) the explorer has switched to.
+            </summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="T:AddinExpress.OL.BeforeFormInstanceCreateEventArgs">
+            <summary>
+            Provides data for the ADXBeforeFormInstanceCreate event of ADXOlFormsManager.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.BeforeFormInstanceCreateEventArgs.Cancel">
+            <summary>
+            If true, prevents creating an instance of the ADXOlForm defined in the FormClassName property of the ADXOlFormsCollectionItem which is specified in the Item member of this class.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.BeforeFormInstanceCreateEventArgs.Item">
+            <summary>
+            Returns the ADXOlFormsCollectionItem that is about to create an ADXOlForm instance.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.BeforeFormInstanceCreateEventArgs.InspectorObj">
+            <summary>
+            Returns either the Outlook.Inspector (a COM object) in which the form instance will be embedded or null (Nothing in VB.NET).
+            </summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.BeforeFormInstanceCreateEventArgs.ExplorerObj">
+            <summary>
+            Returns either the Outlook.Explorer (a COM object) in which the form instance will be embedded or null (Nothing in VB.NET).
+            </summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.BeforeFormInstanceCreateEventArgs.FolderObj">
+            <summary>
+            Returns either the current folder (a COM object) of the explorer specified in the ExplorerObj member or null (Nothing in VB.NET).
+            </summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="T:AddinExpress.OL.BeforeFolderSwitchExEventArgs">
+            <summary>
+            Provides data for the BeforeFolderSwitchEx event of the ADXOlFormsManager.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.BeforeFolderSwitchExEventArgs.SrcFolder">
+            <summary> The Outlook.MAPIFolder (a COM object) an Outlook explorer is switching
+            from.</summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="P:AddinExpress.OL.BeforeFolderSwitchExEventArgs.DstFolder">
+            <summary> The Outlook.MAPIFolder (a COM object) an Outlook explorer is switching
+            to.</summary>
+            <remarks>The COM objects provided in this member are essential for Add-in
+            Express Extensions functioning. That's why you must never release them. On the
+            contrary, you must release every COM object obtained from them. 
+            <para>To release a COM object, you use the ReleaseComObject method of the
+            Marshal class located in the System.Runtime.InteropServices
+            namespace.</para></remarks>
+        </member>
+        <member name="T:AddinExpress.OL.NavigationPaneHideEventArgs">
+            <summary>
+            Provides data for the ADXNavigationPaneHide event of the ADXOlFormsManager.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.NavigationPaneHideEventArgs.OutlookBar">
+            <summary>
+            In Outlook 2000 and XP, returns True if the Outlook Bar is hidden. In Outlook 2000 and XP, returns False if the Folder List is hidden. In Outlook 2003 and higher, returns false.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.NavigationPaneShowEventArgs">
+            <summary>
+            Provides data for the ADXNavigationPaneShow event of the ADXOlFormsManager.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.NavigationPaneShowEventArgs.OutlookBar">
+            <summary>
+            In Outlook 2000 and XP, returns True, if the Outlook Bar is hidden. In Outlook 2000 and XP, returns False, if the Folder List is hidden. In Outlook 2003 and higher, returns false.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.NavigationPaneMinimizeEventArgs">
+            <summary>
+            Provides data for the ADXNavigationPaneMinimize event of the ADXOlFormsManager.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ReadingPaneHideEventArgs">
+            <summary>
+            Provides data for the ADXReadingPaneHide event of the ADXOlFormsManager.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ReadingPaneShowEventArgs">
+            <summary>
+            Provides data for the ADXReadingPaneShow event of the ADXOlFormsManager.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ReadingPaneShowEventArgs.ReadingPaneLayout">
+            <summary>
+            Returns an ADXOlReadingPaneLayout that specifies the layout in which the Reading Pane is shown. 
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.TodoBarHideEventArgs">
+            <summary>
+            Provides data for the ADXTodoBarHide event of the ADXOlFormsManager.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.TodoBarShowEventArgs">
+            <summary>
+            Provides data for the ADXTodoBarShow event of the ADXOlFormsManager.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.TodoBarMinimizeEventArgs">
+            <summary>
+            Provides data for the ADXTodoBarMinimize event of the ADXOlFormsManager.
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.ReadingPaneMoveEventArgs">
+            <summary>
+            Provides data for the ADXReadingPaneMove event of the ADXOlFormsManager.
+            </summary>
+        </member>
+        <member name="P:AddinExpress.OL.ReadingPaneMoveEventArgs.ReadingPaneLayout">
+            <summary>
+            Returns an ADXOlReadingPaneLayout that specifies the layout in which the Reading Pane is moved. 
+            </summary>
+        </member>
+        <member name="T:AddinExpress.OL.Log">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.Log.AddException(System.String,System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.
+            </summary>
+            <param name="mes">An exception message that will be added to the log.</param>
+            <param name="detailedInfo">Detailed info about the exception that will be added to the log.</param>
+        </member>
+        <member name="M:AddinExpress.OL.Log.AddSystemInfo(System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="info">Info that will be added to the log.</param>
+        </member>
+        <member name="M:AddinExpress.OL.Log.AddMessage(System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.
+            </summary>
+            <param name="mes">A message that will be added to the log.</param>
+        </member>
+        <member name="M:AddinExpress.OL.Log.AddWarning(System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.
+            </summary>
+            <param name="mes">A warning message that will be added to the log.</param>
+        </member>
+        <member name="M:AddinExpress.OL.Log.AddIndent">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.Log.RemoveIndent">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.Log.SetCountLastMessages(System.Int32)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.
+            </summary>
+            <param name="count">A count of messages that will be contained in the log.</param>
+        </member>
+        <member name="M:AddinExpress.OL.Log.GetMessages">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.Log.ShowMessages(System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="caption">A caption of a window log.</param>
+        </member>
+        <member name="M:AddinExpress.OL.Log.ClearMessages">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.Log.Save(System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.
+            </summary>
+            <param name="fileName">A file name that will be used for saving the log.</param>
+        </member>
+        <member name="P:AddinExpress.OL.Log.SaveLogToFilebyDefaultAfterAddingEachMessage">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="P:AddinExpress.OL.Log.SaveLogToFilebyDefaultWhenManagerIsDisposed">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="P:AddinExpress.OL.Log.LogFileByDefault">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.ADXOlMessageClassesCollection">
+            <summary>
+            A string collection.
+            </summary>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlMessageClassesCollection.#ctor(System.Object)">
+            <summary>Initializes a new instance of the class.</summary>
+            <param name="owner">An ADXOlFormsCollection item that owns the
+            collection.</param>
+        </member>
+        <member name="M:AddinExpress.OL.ADXOlMessageClassesCollection.IndexOfMessageClass(System.String)">
+            <summary>Returns an integer value which is the index of the specified message class
+            in the collection. Returns zero, if the message class isn't found in the
+            collection.</summary>
+            <param name="messageClass">The message class name to retrieve the index of in the collection.</param>
+        </member>
+        <member name="P:AddinExpress.OL.ADXOlMessageClassesCollection.Owner">
+            <summary>Returns the ADXOlFormsCollection item that owns the
+            collection.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.OlExplorersEvents_SinkHelper">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.OlExplorersEvents_SinkHelper.#ctor(AddinExpress.OL.ADXOlFormsManager,System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="owner">An instance of ADXOlFormsManager.</param>
+            <param name="hostVersion">A string value of the Outlook version.</param>
+        </member>
+        <member name="M:AddinExpress.OL.OlExplorersEvents_SinkHelper.Dispose">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.OlExplorerEvents_BaseLogic">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.OlExplorerEvents_BaseLogic.#ctor(AddinExpress.OL.OlExplorersEvents_SinkHelper)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="owner">An instance of OlExplorersEvents_SinkHelper.</param>
+        </member>
+        <member name="M:AddinExpress.OL.OlExplorerEvents_BaseLogic.Dispose">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.OlExplorerEvents_SinkHelper">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.OlExplorerEvents_SinkHelper.#ctor(AddinExpress.OL.OlExplorersEvents_SinkHelper)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="owner">An instance of OlExplorersEvents_SinkHelper.</param>
+        </member>
+        <member name="T:AddinExpress.OL.OlExplorerEvents_10_SinkHelper">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.OlExplorerEvents_10_SinkHelper.#ctor(AddinExpress.OL.OlExplorersEvents_SinkHelper)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="owner">An instance of OlExplorersEvents_SinkHelper.</param>
+        </member>
+        <member name="T:AddinExpress.OL.OlApplicationEvents_BaseLogic">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.OlApplicationEvents_BaseLogic.#ctor(AddinExpress.OL.ADXOlFormsManager,System.String)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="owner">An instance of ADXOlFormsManager.</param>
+            <param name="hostVersion">A string value of the Outlook version.</param>
+        </member>
+        <member name="M:AddinExpress.OL.OlApplicationEvents_BaseLogic.Dispose">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.OlApplicationEvents_SinkHelper">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.OlApplicationEvents_SinkHelper.#ctor(AddinExpress.OL.ADXOlFormsManager,System.String)">
+            <summary>
+            Initializes a new instance of the OlApplicationEvents_SinkHelper class.
+            </summary>
+            <param name="owner">An instance of ADXOlFormsManager.</param>
+            <param name="hostVersion">A string value of the Outlook version.</param>
+        </member>
+        <member name="T:AddinExpress.OL.OlApplicationEvents_10_SinkHelper">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.OlApplicationEvents_10_SinkHelper.#ctor(AddinExpress.OL.ADXOlFormsManager,System.String)">
+            <summary>
+            Initializes a new instance of the OlApplicationEvents_SinkHelper_10 class.
+            </summary>
+            <param name="owner">An instance of ADXOlFormsManager.</param>
+            <param name="hostVersion">A string value of the Outlook version.</param>
+        </member>
+        <member name="T:AddinExpress.OL.OlApplicationEvents_11_SinkHelper">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.OlApplicationEvents_11_SinkHelper.#ctor(AddinExpress.OL.ADXOlFormsManager,System.String)">
+            <summary>
+            Initializes a new instance of the OlApplicationEvents_SinkHelper_11 class.
+            </summary>
+            <param name="owner">An instance of ADXOlFormsManager.</param>
+            <param name="hostVersion">A string value of the Outlook version.</param>
+        </member>
+        <member name="T:AddinExpress.OL.OlInspectorsEvents_SinkHelper">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.OlInspectorsEvents_SinkHelper.#ctor(AddinExpress.OL.ADXOlFormsManager)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="owner">An instance of ADXOlFormsManager.</param>
+        </member>
+        <member name="M:AddinExpress.OL.OlInspectorsEvents_SinkHelper.Dispose">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.OlInspectorEvents_BaseLogic">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.OlInspectorEvents_BaseLogic.#ctor(AddinExpress.OL.OlInspectorsEvents_SinkHelper,System.Boolean)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="owner">An instance of OlInspectorsEvents_SinkHelper.</param>
+            <param name="outsideNotWordInspector">A context indicator.</param>
+        </member>
+        <member name="M:AddinExpress.OL.OlInspectorEvents_BaseLogic.Dispose">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="T:AddinExpress.OL.OlInspectorEvents_SinkHelper">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.OlInspectorEvents_SinkHelper.#ctor(AddinExpress.OL.OlInspectorsEvents_SinkHelper,System.Boolean)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="owner">An instance of OlInspectorsEvents_SinkHelper.</param>
+            <param name="outsideNotWordInspector">A context indicator.</param>
+        </member>
+        <member name="T:AddinExpress.OL.OlInspectorEvents_10_SinkHelper">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+        </member>
+        <member name="M:AddinExpress.OL.OlInspectorEvents_10_SinkHelper.#ctor(AddinExpress.OL.OlInspectorsEvents_SinkHelper,System.Boolean)">
+            <summary> This member supports the Add-in Express infrastructure and is not
+            intended to be used directly from your code.</summary>
+            <param name="owner">An instance of OlInspectorsEvents_SinkHelper.</param>
+            <param name="outsideNotWordInspector">A context indicator.</param>
+        </member>
+    </members>
+</doc>

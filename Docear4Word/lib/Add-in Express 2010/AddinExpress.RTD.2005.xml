@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>AddinExpress.RTD.2005</name>
+  </assembly>
+  <members>
+    <member name="T:AddinExpress.RTD.ADXClickOnceAction">
+      <summary>Actions avalable in a ClickOnce Module when when delpoying the RTD Server with Add-in Express ClickOnce Solution.</summary>
+    </member>
+    <member name="T:AddinExpress.RTD.ADXClickOnceModule">
+      <summary>Represents a ClickOnce Module.</summary>
+    </member>
+    <member name="T:AddinExpress.RTD.ADXClickOnceUIEventArgs">
+      <summary>Supplies data for the ADXClickOnceModule.OnShowClickOnceCustomUI event.</summary>
+    </member>
+    <member name="T:AddinExpress.RTD.ADXErrorEventArgs">
+      <summary>Provides data for the Error event.</summary>
+    </member>
+    <member name="T:AddinExpress.RTD.ADXLoaderSupport">
+      <summary>This class supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:AddinExpress.RTD.ADXRTDServerModule">
+      <summary>Represents an RTD Server.</summary>
+    </member>
+    <member name="T:AddinExpress.RTD.ADXRTDTopic">
+      <summary>Represents an RTD Server topic, a logical item of the RTD Server.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXClickOnceModule.#ctor(System.ComponentModel.IContainer)">
+      <summary>Initializes a new instance of the class.</summary>
+      <param name="container">An IContainer that represents the container for the component.</param>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXClickOnceModule.#ctor">
+      <summary>Initializes a new instance of the class.</summary>
+    </member>
+    <member name="E:AddinExpress.RTD.ADXClickOnceModule.OnClickOnceAction">
+      <summary>Occurs when handling of a ClickOnce action is required.</summary>
+    </member>
+    <member name="E:AddinExpress.RTD.ADXClickOnceModule.OnError">
+      <summary>Occurs when the code of a ClickOnce module generates an exception.</summary>
+    </member>
+    <member name="E:AddinExpress.RTD.ADXClickOnceModule.OnShowClickOnceCustomUI">
+      <summary>Occurs when the ClickOnce Application is invoked by the user.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXClickOnceUIEventArgs.Properties">
+      <summary>Returns the properties available in the event.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXErrorEventArgs.#ctor(System.Exception)">
+      <summary>Initializes a new instance of the class.</summary>
+      <param name="e">An instance of the exception that occurs in the code of the RTD Server.</param>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXErrorEventArgs.ADXError">
+      <summary>The exception instance.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXErrorEventArgs.Handled">
+      <summary>Specifies if the exception is handled by the developer.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXLoaderSupport.#ctor">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXLoaderSupport.AssemblyResolveEventHandler(System.Object,System.ResolveEventArgs)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXLoaderSupport.ClickOnceRegisterForComInterop(System.Boolean,System.String,System.String,System.Boolean,System.EventHandler)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXLoaderSupport.ClickOnceRegistrationService(System.Boolean,System.String,System.Boolean,System.EventHandler)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXLoaderSupport.ClickOnceRegistrationService_2(System.Boolean,System.String,System.Boolean,System.EventHandler,System.Int32)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXLoaderSupport.RegistrationService(System.Boolean,System.String,System.Boolean)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXLoaderSupport.RegistrationService_2(System.Boolean,System.String,System.Boolean,System.Boolean)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.#ctor">
+      <summary>Initializes a new instance of the class.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.ADXRTDServerRegister(System.Type)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.ADXRTDServerUnregister(System.Type)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.CheckForMSIUpdates">
+      <summary>If a new version of the application is available, the method returns a formatted string: a URL or UNC path.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.CheckForUpdates">
+      <summary>Runs the ClickOnce application associated with the RTD Server to check if there is a new version of the server in the update location. Can be
+used only if the RTD Server was deployed with Add-in Express ClickOnce Solution.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.CreateProcess(System.String)">
+      <summary>Creates a new process of the same integrity level as its parent process. The new process executes the specified executable file.</summary>
+      <param name="fullPath">The path to the executable file to launch.</param>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.GetContainer">
+      <summary>Returns the container of the RTD Server module.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.IsMSINetworkDeployed">
+      <summary>Returns True if the add-in was registered/installed via MSI-based Web installer.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.IsMSIUpdatable">
+      <summary>Returns True if the user is permited to update the application. In Vista or Windows 7, it is always True.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.IsNetworkDeployed">
+      <summary></summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.ShowErrorDialog(System.Object,System.Exception)">
+      <summary>Shows the error dialog displaying information on the exception.</summary>
+      <param name="sender">An object that has initiated the dialog.</param>
+      <param name="e">An exception.</param>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.UnmanagedCallToRegisterClass(System.Boolean)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.UpdateTopics">
+      <summary>Updates all real-time data.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.UpdateTopic(System.Int32)">
+      <summary>Updates real-time data of the specified topic.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDServerModule.UpdateTopic(AddinExpress.RTD.ADXRTDTopic)">
+      <summary>Updates real-time data of the specified topic.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDServerModule.Interval">
+      <summary>The refresh interval (in milliseconds).</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDServerModule.IsBusy">
+      <summary>Returns true when the RTD server refreshes topic(s).</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDServerModule.RegisterForAllUsers">
+      <summary>Specifies if the RTD server is registered for all users on the current PC (supported in the Add-in Express Loader only).</summary>
+    </member>
+    <member name="F:AddinExpress.RTD.ADXRTDServerModule.CurrentInstance">
+      <summary>Returns the currently active RTD Server Module.</summary>
+    </member>
+    <member name="E:AddinExpress.RTD.ADXRTDServerModule.OnError">
+      <summary>Occurs when the RTD server code generates an exception.</summary>
+    </member>
+    <member name="E:AddinExpress.RTD.ADXRTDServerModule.RTDFinalize">
+      <summary>Occurs before Excel begins its unloading process.</summary>
+    </member>
+    <member name="E:AddinExpress.RTD.ADXRTDServerModule.RTDInitialize">
+      <summary>Occurs when Excel starts.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDTopic.#ctor(System.ComponentModel.IContainer)">
+      <summary>Initializes a new instance of the class.</summary>
+      <param name="container">An IContainer that represents the container for the component.</param>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDTopic.#ctor">
+      <summary>Initializes a new instance of the class.</summary>
+    </member>
+    <member name="M:AddinExpress.RTD.ADXRTDTopic.Clone">
+      <summary>Creates a new object that is a copy of the topic.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.CheckOldValue">
+      <summary>Add-in Express uses this property to decide if the cell contents should berefreshed when the new topic value is equal to the currently displayed
+one.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.DefaultValue">
+      <summary>Specifies the default value of the RTD topic.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.Enabled">
+      <summary>Enables or disables the RTD topic.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.Item(System.Int32)">
+      <summary>Returns topic strings by their indeces.</summary>
+      <param name="index">The index number of the topic's string.</param>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String01">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String02">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String03">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String04">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String05">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String06">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String07">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String08">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String09">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String10">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String11">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String12">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String13">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String14">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String15">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String16">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String17">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String18">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String19">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String20">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String21">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String22">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String23">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String24">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String25">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String26">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String27">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.String28">
+      <summary>Returns or sets the topic's string.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.Tag">
+      <summary>Returns or sets a custom string value associated with the component.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.Text">
+      <summary>Returns the complete string of the RTD topic.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.TopicID">
+      <summary>Returns the ID of the RTS topic.</summary>
+    </member>
+    <member name="P:AddinExpress.RTD.ADXRTDTopic.UseStoredValue">
+      <summary>If false, the RTD topic returns the default value when Excel starts. If true, the RTD topic returns the last value shown in the previous session.</summary>
+    </member>
+    <member name="E:AddinExpress.RTD.ADXRTDTopic.Connect">
+      <summary>This event fires after the RTD topic is connected</summary>
+    </member>
+    <member name="E:AddinExpress.RTD.ADXRTDTopic.Disconnect">
+      <summary>This event fires before the RTD topic is disconnected.</summary>
+    </member>
+    <member name="E:AddinExpress.RTD.ADXRTDTopic.RefreshData">
+      <summary>This event fires on refreshing data of the RTD topic.</summary>
+    </member>
+    <member name="T:AddinExpress.RTD.ADXClickOnceAction_EventHandler">
+      <summary>Represents the method that handles the ADXClickOnceModule.OnClickOnceAction event.</summary>
+    </member>
+    <member name="T:AddinExpress.RTD.ADXClickOnceUI_EventHandler">
+      <summary>Represents the method that handles the ADXClickOnceModule.OnShowClickOnceCustomUI event.</summary>
+    </member>
+    <member name="T:AddinExpress.RTD.ADXError_EventHandler">
+      <summary>Represents the method that handles the ADXRTDServerModule.OnError event.</summary>
+    </member>
+    <member name="T:AddinExpress.RTD.ADXRefreshData_EventHandler">
+      <summary>Represents the method that handles the ADXRTDTopic.RefreshData event.</summary>
+    </member>
+  </members>
+</doc>

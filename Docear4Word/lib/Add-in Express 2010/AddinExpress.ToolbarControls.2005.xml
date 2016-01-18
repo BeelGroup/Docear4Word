@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>AddinExpress.ToolbarControls.2005</name>
+  </assembly>
+  <members>
+    <member name="T:AddinExpress.ToolbarControls.ADXControlAdapter">
+      <summary>The base class for application-specific control adapters of Add-in Express Toolbar Controls Microsoft Office.</summary>
+    </member>
+    <member name="T:AddinExpress.ToolbarControls.ADXExcelControlAdapter">
+      <summary>The Excel-specific control adapter of Add-in Express Toolbar Controls Microsoft Office. When added to an Add-in Module, embeds .NET controls
+bound to Advanced Control components into the corresponding command bar in Excel.</summary>
+    </member>
+    <member name="T:AddinExpress.ToolbarControls.ADXOutlookControlAdapter">
+      <summary>The Outlook-specific control adapter of Add-in Express Toolbar Controls Microsoft Office. When added to an Add-in Module, embeds .NET controls
+bound to Advanced Control components into the corresponding command bar in Outlook.</summary>
+    </member>
+    <member name="T:AddinExpress.ToolbarControls.ADXPowerPointControlAdapter">
+      <summary>The PowerPoint-specific control adapter of Add-in Express Toolbar Controls Microsoft Office. When added to an Add-in Module, embeds .NET controls
+bound to Advanced Control components into the corresponding command bar in PowerPoint.</summary>
+    </member>
+    <member name="T:AddinExpress.ToolbarControls.ADXWordControlAdapter">
+      <summary>The Word-specific control adapter of Add-in Express Toolbar Controls Microsoft Office. When added to an Add-in Module, embeds .NET controls bound
+to Advanced Control components into the corresponding command bar in Word.</summary>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXControlAdapter.#ctor">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXControlAdapter class.</summary>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXControlAdapter.#ctor(System.ComponentModel.IContainer)">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXControlAdapter class.</summary>
+      <param name="container">An object implementing System.ComponentModel.IContainer to associate with this instance of AddinExpress.ToolbarControls.ADXControlAdapter.</param>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXControlAdapter.#ctor(System.Object,System.Int32)">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXControlAdapter class. This member supports the Add-in Express infrastructure
+and is not intended to be used directly from your code.</summary>
+      <param name="owner">This parameter supports the Add-in Express infrastructure and is not intended to be used directly from your code.</param>
+      <param name="dummy">This parameter supports the Add-in Express infrastructure and is not intended to be used directly from your code.</param>
+    </member>
+    <member name="E:AddinExpress.ToolbarControls.ADXControlAdapter.ControlNeeded">
+      <summary>Occurs before the actual control is created. Allows specifying the control to show.</summary>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXExcelControlAdapter.#ctor">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXExcelControlAdapter class.</summary>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXExcelControlAdapter.#ctor(System.ComponentModel.IContainer)">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXExcelControlAdapter class.</summary>
+      <param name="container">An object implementing System.ComponentModel.IContainer to associate with this instance of AddinExpress.ToolbarControls.ADXExcelControlAdapter.</param>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXExcelControlAdapter.#ctor(System.Object,System.Int32)">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXExcelControlAdapter class. This member supports the Add-in Express
+infrastructure and is not intended to be used directly from your code.</summary>
+      <param name="owner">This parameter supports the Add-in Express infrastructure and is not intended to be used directly from your code.</param>
+      <param name="dummy">This parameter supports the Add-in Express infrastructure and is not intended to be used directly from your code.</param>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXExcelControlAdapter.ToString">
+      <summary>Returns a string that represents the current AddinExpress.ToolbarControls.ADXExcelControlAdapter.</summary>
+      <returns>A string that represents the current AddinExpress.ToolbarControls.ADXExcelControlAdapter.</returns>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXOutlookControlAdapter.#ctor">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXOutlookControlAdapter class.</summary>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXOutlookControlAdapter.#ctor(System.ComponentModel.IContainer)">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXOutlookControlAdapter class.</summary>
+      <param name="container">An object implementing System.ComponentModel.IContainer to associate with this instance of AddinExpress.ToolbarControls.ADXOutlookControlAdapter.</param>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXOutlookControlAdapter.#ctor(System.Object,System.Int32)">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXOutlookControlAdapter class. This member supports the Add-in Express
+infrastructure and is not intended to be used directly from your code.</summary>
+      <param name="owner">This parameter supports the Add-in Express infrastructure and is not intended to be used directly from your code.</param>
+      <param name="dummy">This parameter supports the Add-in Express infrastructure and is not intended to be used directly from your code.</param>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXOutlookControlAdapter.ToString">
+      <summary>Returns a string that represents the current AddinExpress.ToolbarControls.ADXOutlookControlAdapter.</summary>
+      <returns>A string that represents the current AddinExpress.ToolbarControls.ADXOutlookControlAdapter.</returns>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXPowerPointControlAdapter.#ctor">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXPowerPointControlAdapter class.</summary>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXPowerPointControlAdapter.#ctor(System.ComponentModel.IContainer)">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXPowerPointControlAdapter class.</summary>
+      <param name="container">An object implementing System.ComponentModel.IContainer to associate with this instance of
+AddinExpress.ToolbarControls.ADXPowerPointControlAdapter.</param>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXPowerPointControlAdapter.#ctor(System.Object,System.Int32)">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXPowerPointControlAdapter class. This member supports the Add-in Express
+infrastructure and is not intended to be used directly from your code.</summary>
+      <param name="owner">This parameter supports the Add-in Express infrastructure and is not intended to be used directly from your code.</param>
+      <param name="dummy">This parameter supports the Add-in Express infrastructure and is not intended to be used directly from your code.</param>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXPowerPointControlAdapter.ToString">
+      <summary>Returns a string that represents the current AddinExpress.ToolbarControls.ADXPowerPointControlAdapter.</summary>
+      <returns>A string that represents the current AddinExpress.ToolbarControls.ADXPowerPointControlAdapter.</returns>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXWordControlAdapter.#ctor">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXWordControlAdapter class.</summary>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXWordControlAdapter.#ctor(System.ComponentModel.IContainer)">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXWordControlAdapter class.</summary>
+      <param name="container">An object implementing System.ComponentModel.IContainer to associate with this instance of AddinExpress.ToolbarControls.ADXWordControlAdapter.</param>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXWordControlAdapter.#ctor(System.Object,System.Int32)">
+      <summary>Initializes a new instance of the AddinExpress.ToolbarControls.ADXWordControlAdapter class. This member supports the Add-in Express
+infrastructure and is not intended to be used directly from your code.</summary>
+      <param name="owner">This parameter supports the Add-in Express infrastructure and is not intended to be used directly from your code.</param>
+      <param name="dummy">This parameter supports the Add-in Express infrastructure and is not intended to be used directly from your code.</param>
+    </member>
+    <member name="M:AddinExpress.ToolbarControls.ADXWordControlAdapter.ToString">
+      <summary>Returns a string that represents the current AddinExpress.ToolbarControls.ADXWordControlAdapter.</summary>
+      <returns>A string that represents the current AddinExpress.ToolbarControls.ADXWordControlAdapter.</returns>
+    </member>
+    <member name="T:AddinExpress.ToolbarControls.ADXEvents_ControlNeeded">
+      <summary>Represents the method that will process the ControlNeeded event of the ADXControlAdapter class.</summary>
+      <param name="sender">The ADXCommandBarAdvancedControl that is the cause of the event.</param>
+      <param name="control">The control to show. If this parameter is left unchanged (null or Nothing in VB), the control will be instanciated via Reflection.</param>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,17 @@
+SCC = This is a source code control file
+
+[Docear4Word.UnitTest.csproj]
+SCC_Aux_Path = "P4SCC#1666##Simon##Source"
+SCC_Project_Name = Perforce Project
+
+[Docear4Word.sln]
+SCC_Aux_Path = "P4SCC#1666##Simon##Source"
+SCC_Project_Name = Perforce Project
+
+[JavaScriptIntegration.csproj]
+SCC_Aux_Path = "P4SCC#1666##Simon##Source"
+SCC_Project_Name = Perforce Project
+
+[Docear4Word.csproj]
+SCC_Aux_Path = "P4SCC#1666##Simon##Source"
+SCC_Project_Name = Perforce Project

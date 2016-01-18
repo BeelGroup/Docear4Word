@@ -1,0 +1,127 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/Highlighting/AnalysisEnabled/@EntryValue">SOLUTION</s:String>
+	
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="F:\src\Visual Studio 2010\Projects\Docear4Word\docear4word\Interops\Interop.Office.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	
+	
+	<s:Int64 x:Key="/Default/Environment/SearchAndNavigation/DefaultOccurencesGroupingIndex/@EntryValue">10</s:Int64>
+	<s:Boolean x:Key="/Default/Environment/SearchAndNavigation/MergeOccurences/@EntryValue">False</s:Boolean>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/Housekeeping/SolutionSettingsUpgraded/IsUpgraded/@EntryValue">True</s:Boolean>
+	
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=107A71B893E24376834A155B4A86D44D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=107A71B893E24376834A155B4A86D44D/Name/@EntryValue">CheckSameReferenceWithDifferentPagesProducesSingleEntryInBibliography</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=107A71B893E24376834A155B4A86D44D/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;Elements /&gt;&lt;/Session&gt;</s:String>
+	
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=DD4EF79DB9F64B9E89021882467770B4/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=DD4EF79DB9F64B9E89021882467770B4/Name/@EntryValue">StyleTests</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=DD4EF79DB9F64B9E89021882467770B4/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;Elements&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests" type="NUnitTestFixtureElement" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest" type="NUnitTestFixtureElement" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.StyleTests.StyleTests" type="NUnitTestFixtureElement" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.AccuteTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="AccuteTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.BigFileParser" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="BigFileParser" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.BreveTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="BreveTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.CedillaTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="CedillaTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.CircumflexTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="CircumflexTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.DocearParser" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="DocearParser" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.EquationTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="EquationTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.EscapesTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="EscapesTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.GraveTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="GraveTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.GreekTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="GreekTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.HacekTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="HacekTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.HungarianUmlautTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="HungarianUmlautTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.LatexSubstitutionsTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="LatexSubstitutionsTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.MathematicalSymbolsTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="MathematicalSymbolsTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.Mendeley1Parser" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="Mendeley1Parser" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.Mendeley2Parser" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="Mendeley2Parser" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.OverbarTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="OverbarTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.OverdotTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="OverdotTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.SimpleParser" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="SimpleParser" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.SymbolTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="SymbolTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.Temp" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="Temp" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.TempParser" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="TempParser" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestAdjoined" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestAdjoined" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestAdjoined02" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestAdjoined02" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestAdjoined03" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestAdjoined03" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.StyleTests.StyleTests.TestBibtexInstitutionIsMapped" ParentId="docear4word.UnitTest.StyleTests.StyleTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.StyleTests.StyleTests" MethodName="TestBibtexInstitutionIsMapped" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestEmptyName" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestEmptyName" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestNullName" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestNullName" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestPreserveContentInBraces" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestPreserveContentInBraces" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestPreserveContentInBraces2" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestPreserveContentInBraces2" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSingleComma" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSingleComma" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSinglePartIsFamily" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSinglePartIsFamily" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSpecial" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSpecial" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSpecialBracedAccentedChars" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSpecialBracedAccentedChars" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_DualComma_01" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_DualComma_01" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_DualComma_02" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_DualComma_02" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_DualComma_03" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_DualComma_03" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_DualComma_04" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_DualComma_04" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_DualComma_05" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_DualComma_05" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_MultiComma_01" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_MultiComma_01" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_MultiComma_02" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_MultiComma_02" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_MultiComma_03" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_MultiComma_03" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_MultiComma_04" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_MultiComma_04" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_MultiComma_05" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_MultiComma_05" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_NoCommas_01" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_NoCommas_01" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_NoCommas_02" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_NoCommas_02" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_NoCommas_03" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_NoCommas_03" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_NoCommas_04" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_NoCommas_04" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_NoCommas_05" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_NoCommas_05" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_NoCommas_06" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_NoCommas_06" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_NoCommas_07" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_NoCommas_07" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_NoCommas_08" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_NoCommas_08" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_SingleComma_01" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_SingleComma_01" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_SingleComma_02" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_SingleComma_02" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_SingleComma_03" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_SingleComma_03" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_SingleComma_04" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_SingleComma_04" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSplitName_SingleComma_05" ParentId="docear4word.UnitTest.NameSplitterTests" type="NUnitTestElement" TypeName="docear4word.UnitTest.NameSplitterTests" MethodName="TestSplitName_SingleComma_05" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.TildeTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="TildeTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.UmlautTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="UmlautTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.UnicodeTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="UnicodeTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.ParseTest.VerbatimTests" ParentId="docear4word.UnitTest.ParseTest" type="NUnitTestElement" TypeName="docear4word.UnitTest.ParseTest" MethodName="VerbatimTests" Project="7E11DF2C-4472-4B9A-9044-41E6D89525DC" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSingleComma(&amp;quot; , , , &amp;quot;)" ParentId="docear4word.UnitTest.NameSplitterTests.TestSingleComma" type="NUnitRowTestElement" UniqueId="[0-1031]docear4word.UnitTest.NameSplitterTests.TestSingleComma(&amp;quot; , , , &amp;quot;)" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSingleComma(&amp;quot;,&amp;quot;)" ParentId="docear4word.UnitTest.NameSplitterTests.TestSingleComma" type="NUnitRowTestElement" UniqueId="[0-1032]docear4word.UnitTest.NameSplitterTests.TestSingleComma(&amp;quot;,&amp;quot;)" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSingleComma(&amp;quot;,,&amp;quot;)" ParentId="docear4word.UnitTest.NameSplitterTests.TestSingleComma" type="NUnitRowTestElement" UniqueId="[0-1034]docear4word.UnitTest.NameSplitterTests.TestSingleComma(&amp;quot;,,&amp;quot;)" /&gt;&lt;UnitTestElement Provider="nUnit" Id="docear4word.UnitTest.NameSplitterTests.TestSingleComma(&amp;quot;,,,&amp;quot;)" ParentId="docear4word.UnitTest.NameSplitterTests.TestSingleComma" type="NUnitRowTestElement" UniqueId="[0-1033]docear4word.UnitTest.NameSplitterTests.TestSingleComma(&amp;quot;,,,&amp;quot;)" /&gt;&lt;/Elements&gt;&lt;/Session&gt;</s:String>
+	
+	</wpf:ResourceDictionary>

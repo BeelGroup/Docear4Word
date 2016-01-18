@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>AddinExpress.SmartTag.2005</name>
+  </assembly>
+  <members>
+    <member name="T:AddinExpress.SmartTag.ADXClickOnceAction">
+      <summary>Actions avalable in a ClickOnce Module when when delpoying the RTD Server with Add-in Express ClickOnce Solution.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagKindType">
+      <summary>Recognizing strategy types.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXClickOnceModule">
+      <summary>Represents a ClickOnce Module.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXClickOnceUIEventArgs">
+      <summary>Supplies data for the ADXClickOnceModule.OnShowClickOnceCustomUI event.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXErrorEventArgs">
+      <summary>Provides data for the Error event of smart tag modules.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXLoaderSupport">
+      <summary>This class supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXLocalizedList">
+      <summary>A list of localized strings.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXRecognizedWordCollection">
+      <summary>A collection of the words and phrases recognized by smart tags.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTag">
+      <summary>Represents a smart tag in the smart tag library.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagAction">
+      <summary>Represents a smart tag action.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagActionCollection">
+      <summary>Contains actions of smart tags.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagActionEventArgs">
+      <summary>Provides data for the Click event of a smart tag action.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagActionImpl">
+      <summary>The implementation of the ISmartTagAction and ISmartTagAction2 interfaces.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagModule">
+      <summary>Represents a smart tag library.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagRecognizeEventArgs">
+      <summary>Provides data for the Recognize event of a ADXSmartTag instance.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagRecognizerImpl">
+      <summary>This class supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.XPThemes">
+      <summary>Allows applying XP themes to a form opened within the code of an Add-in Express project. Doesn't require an application's manifest to exist.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXClickOnceModule.#ctor(System.ComponentModel.IContainer)">
+      <summary>Initializes a new instance of the class.</summary>
+      <param name="container">An IContainer that represents the container for the component.</param>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXClickOnceModule.#ctor">
+      <summary>Initializes a new instance of the class.</summary>
+    </member>
+    <member name="E:AddinExpress.SmartTag.ADXClickOnceModule.OnClickOnceAction">
+      <summary>Occurs when handling of a ClickOnce action is required.</summary>
+    </member>
+    <member name="E:AddinExpress.SmartTag.ADXClickOnceModule.OnError">
+      <summary>Occurs when the code of a ClickOnce module generates an exception.</summary>
+    </member>
+    <member name="E:AddinExpress.SmartTag.ADXClickOnceModule.OnShowClickOnceCustomUI">
+      <summary>Occurs when the ClickOnce Application is invoked by the user.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXClickOnceUIEventArgs.Properties">
+      <summary>Returns the properties available in the event.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXErrorEventArgs.#ctor(System.Exception)">
+      <summary>Initializes a new instance of the ADXErrorEventArgs class.</summary>
+      <param name="e">An instance of the exception that occurs in the code of the Smart Tag library.</param>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXErrorEventArgs.ADXError">
+      <summary>The exception instance.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXErrorEventArgs.Handled">
+      <summary>Specifies if the exception is handled by the developer.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLoaderSupport.#ctor">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLoaderSupport.AssemblyResolveEventHandler(System.Object,System.ResolveEventArgs)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLoaderSupport.ClickOnceRegisterForComInterop(System.Boolean,System.String,System.String,System.Boolean,System.EventHandler)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLoaderSupport.ClickOnceRegistrationService(System.Boolean,System.String,System.Boolean,System.EventHandler)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLoaderSupport.ClickOnceRegistrationService_2(System.Boolean,System.String,System.Boolean,System.EventHandler,System.Int32)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLoaderSupport.RegistrationService(System.Boolean,System.String,System.Boolean)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLoaderSupport.RegistrationService_2(System.Boolean,System.String,System.Boolean,System.Boolean)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.#ctor">
+      <summary>Initializes a new instance of the ADXLocalizedList class.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.#ctor(System.Collections.SortedList)">
+      <summary>Initializes a new instance of the ADXLocalizedList class.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.Clear">
+      <summary>Removes all elements from the ADXLocalizedList.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.Clone">
+      <summary>Creates a new object that is a copy of the current instance.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.ContainsKey(System.Object)">
+      <summary>Determines whether the ADXLocalizedList contains a specific key.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.CopyTo(System.Array,System.Int32)">
+      <summary>Copies the ADXLocalizedList elements to a one-dimensional Array instance at the specified index.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.Dispose">
+      <summary>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.GetByIndex(System.Int32)">
+      <summary>Gets the value at the specified index of the ADXLocalizedList.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.GetKey(System.Int32)">
+      <summary>Gets the key at the specified index of the ADXLocalizedList.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.GetKeyList">
+      <summary>Gets the keys in the ADXLocalizedList.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.GetValueList">
+      <summary>Gets the values in the ADXLocalizedList.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.IndexOfKey(System.Int32)">
+      <summary>Returns the zero-based index of the specified key in the ADXLocalizedList.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.IndexOfValue(System.String)">
+      <summary>Returns the zero-based index of the first occurrence of the specified value in the ADXLocalizedList.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.Remove(System.Int32)">
+      <summary>Removes the element with the specified key from ADXLocalizedList.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.RemoveAt(System.Int32)">
+      <summary>Removes the element at the specified index of ADXLocalizedList.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.SetByIndex(System.Int32,System.String)">
+      <summary>Replaces the value at a specific index in the ADXLocalizedList.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.TrimToSize">
+      <summary>Sets the capacity to the actual number of elements in the ADXLocalizedList.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.Add(System.Int32,System.String)">
+      <summary>Adds an element with the specified key and value to the ADXLocalizedList.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXLocalizedList.Add(System.Int64,System.String)">
+      <summary>Adds an element with the specified key and value to the ADXLocalizedList.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXLocalizedList.Capacity">
+      <summary>Gets or sets the capacity of the ADXLocalizedList.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXLocalizedList.Count">
+      <summary>Gets the number of elements contained in the ADXLocalizedList.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXLocalizedList.IsFixedSize">
+      <summary>Gets a value indicating whether the ADXLocalizedList has a fixed size.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXLocalizedList.IsReadOnly">
+      <summary>Gets a value indicating whether the ADXLocalizedList is read-only.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXLocalizedList.IsSynchronized">
+      <summary>Gets a value indicating whether access to the ADXLocalizedList is synchronized (thread-safe).</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXLocalizedList.Item(System.Int32)">
+      <summary>Gets and sets the value associated with a specific key in the ADXLocalizedList.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXLocalizedList.Keys">
+      <summary>Gets the keys in the ADXLocalizedList.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXLocalizedList.SyncRoot">
+      <summary>Gets an object that can be used to synchronize access to the ADXLocalizedList.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXLocalizedList.Values">
+      <summary>Gets the values in the ADXLocalizedList.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXRecognizedWordCollection.#ctor(AddinExpress.SmartTag.ADXSmartTag)">
+      <summary>Initializes a new instance of the ADXRecognizedWordsCollection class.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXRecognizedWordCollection.Dispose">
+      <summary>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXRecognizedWordCollection.Owner">
+      <summary>The owner of the collection, an instance of ADXSmartTag.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTag.#ctor(System.ComponentModel.IContainer)">
+      <summary>Initializes a new instance of the class.</summary>
+      <param name="container">An IContainer that represents the container for the component.</param>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTag.#ctor">
+      <summary>Initializes a new instance of the class.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTag.Actions">
+      <summary>The smart tag's action list.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTag.ADXTag">
+      <summary>A string value that uniquely identifies the smart tag.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTag.Caption">
+      <summary>The caption of the smart tag.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTag.DownloadURL">
+      <summary>Returns or sets a string representing the Uniform Resource Locator (URL) for the smart tag.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTag.Kind">
+      <summary>The type of the smart tag recognizer.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTag.RecognizedWords">
+      <summary>The list of words and phrases recognized by the smart tag recognizer.</summary>
+    </member>
+    <member name="E:AddinExpress.SmartTag.ADXSmartTag.ActionNeeded">
+      <summary>Occurs when the smart tag has been recognized. Use this event to change the list of actions according to the current context.</summary>
+    </member>
+    <member name="E:AddinExpress.SmartTag.ADXSmartTag.PropertyPage">
+      <summary>Occurs when the user clicks the Property button on the AutoCorrect dialog box.</summary>
+    </member>
+    <member name="E:AddinExpress.SmartTag.ADXSmartTag.Recognize">
+      <summary>Occurs when the host application calls the smart tag recognizer and if the type of the smart tag recognizer is ktCustom.</summary>
+    </member>
+    <member name="E:AddinExpress.SmartTag.ADXSmartTag.Recognized">
+      <summary>Occurs when the smart tag is recognized.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagAction.#ctor(System.ComponentModel.IContainer)">
+      <summary>Initializes a new instance of the class.</summary>
+      <param name="container">An IContainer that represents the container for the component.</param>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagAction.#ctor">
+      <summary>Initializes a new instance of the class.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagAction.ADXTag">
+      <summary>A string value that uniquely identifies the smart tag action.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagAction.Caption">
+      <summary>The caption of the smart tag action.</summary>
+    </member>
+    <member name="E:AddinExpress.SmartTag.ADXSmartTagAction.Click">
+      <summary>Occurs when the user clicks the action item in the smart tag context menu.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagActionCollection.#ctor(AddinExpress.SmartTag.ADXSmartTag)">
+      <summary>Initializes a new instance of the ADXSmartTagActionCollection class.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagActionCollection.Add(AddinExpress.SmartTag.ADXSmartTagAction)">
+      <summary>Adds a specified control to the collection.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagActionCollection.Clear">
+      <summary>Removes all controls from the collection.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagActionCollection.Contains(System.Object)">
+      <summary>Determines whether the specified control is a member of the collection.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagActionCollection.Dispose">
+      <summary>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagActionCollection.Remove(AddinExpress.SmartTag.ADXSmartTagAction)">
+      <summary>Removes the specified control from the control collection</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagActionCollection.RemoveAt(System.Int32)">
+      <summary>Removes a control from the control collection at the specified indexed location.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagActionCollection.IndexOf(AddinExpress.SmartTag.ADXSmartTagAction)">
+      <summary>Retrieves the index of the specified control in the control collection.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagActionCollection.IndexOf(System.String)">
+      <summary>Retrieves the index of the specified control in the control collection.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagActionCollection.Item(System.Int32)">
+      <summary>An item of the collection.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagActionCollection.Owner">
+      <summary>An owner of the collection.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagActionEventArgs.#ctor(System.String,System.Object,System.String,System.String,System.Int32,System.Object)">
+      <summary>Initializes a new instance of the class.</summary>
+      <param name="appName">A string that represents the name (ProgID) of the calling application.</param>
+      <param name="targetObj">A reference to the application-specific object (a COM object that is required to be released via Marshal.ReleaseComObject) that is responsible
+for calling the smart tag. In Excel, it is an Excel range object that points to the cell that the smart tag was attached to. In Word and PowerPoint, it is a
+range object that wraps around the block of text that the smart tag refers to. In Access, it is a control. However, note that this object may be any other kind
+of pointer to an object that is appropriate for the calling application. It could also be Null.</param>
+      <param name="text">A read-only string that represents the text of the smart tag.</param>
+      <param name="xml">A read-only string that is an XML representation of a smart tag.</param>
+      <param name="localeID">The language identifier that corresponds to the user interface language of the calling application. You can customize the action's caption for
+this LocaleID, return Null, or return an empty string ("") to specify that the action does not work under the respective LocaleID.</param>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagActionEventArgs.AppName">
+      <summary>The name of the smart tag host application.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagActionEventArgs.LocaleID">
+      <summary>The language identifier that corresponds to the user interface language of the calling application. You can customize the action's caption for
+this LocaleID, return Null, or return an empty string ("") to specify that the action does not work under the respective LocaleID.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagActionEventArgs.TargetObj">
+      <summary>A reference to the application-specific object (a COM object that is required to be released via Marshal.ReleaseComObject) that is responsible
+for calling the smart tag.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagActionEventArgs.Text">
+      <summary>A string that represents the text of the smart tag.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagActionEventArgs.Xml">
+      <summary>A read-only string that is an XML representation of a smart tag.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagActionImpl.#ctor(System.Type)">
+      <summary>Initializes a new instance of the ADXSmartTagActionImpl class.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagActionImpl.Dispose">
+      <summary>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagActionImpl.SmartTagModule">
+      <summary>An instance of the Smart Tag module.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagModule.#ctor">
+      <summary>Initializes a new instance of the class.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagModule.ADXSmartTagRegister(System.Type,System.Type,System.Type)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagModule.ADXSmartTagUnregister(System.Type,System.Type,System.Type)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagModule.CheckForMSIUpdates">
+      <summary>If a new version of the application is available, the method returns a formatted string: a URL or UNC path.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagModule.CheckForUpdates">
+      <summary>Runs the ClickOnce application associated with the Smart Tag library to check if there is a new version of the library in the update location.
+Can be used only if the library was deployed with Add-in Express ClickOnce Solution.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagModule.CreateProcess(System.String)">
+      <summary>Creates a new process of the same integrity level as its parent process. The new process executes the specified executable file.</summary>
+      <param name="fullPath">The path to the executable file to launch.</param>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagModule.GetContainer">
+      <summary>Returns the container of the Smart Tag module.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagModule.IsMSINetworkDeployed">
+      <summary>Returns True if the add-in was registered/installed via MSI-based Web installer.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagModule.IsMSIUpdatable">
+      <summary>Returns True if the user is permited to update the application. In Vista or Windows 7, it is always True.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagModule.IsNetworkDeployed">
+      <summary></summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagModule.ShowErrorDialog(System.Object,System.Exception)">
+      <summary>Shows the error dialog displaying information on the exception.</summary>
+      <param name="sender">An object that has initiated the dialog.</param>
+      <param name="e">An exception.</param>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagModule.UnmanagedCallToRegisterClass(System.Boolean)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagModule.Description">
+      <summary>The description of the smart tag library.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagModule.LibraryName">
+      <summary>The name of the smart tag library.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagModule.NamespaceURI">
+      <summary>A string that represents the unique name of the Smart Tag module.</summary>
+    </member>
+    <member name="F:AddinExpress.SmartTag.ADXSmartTagModule.CurrentInstance">
+      <summary>Returns the currently active Smart Tag Module.</summary>
+    </member>
+    <member name="E:AddinExpress.SmartTag.ADXSmartTagModule.OnError">
+      <summary>Occurs when an exception is raised by the smart tag library.</summary>
+    </member>
+    <member name="E:AddinExpress.SmartTag.ADXSmartTagModule.RecognizerFinalize">
+      <summary>Occurs when the smart tag library is disconnected.</summary>
+    </member>
+    <member name="E:AddinExpress.SmartTag.ADXSmartTagModule.RecognizerInitialize">
+      <summary>Occurs when the smart tag library is connected.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagRecognizeEventArgs.#ctor(System.String,System.Object,System.Int32,System.String,System.Object,AddinExpress.SmartTag.ADXSmartTagCommitProc_EventHandler)">
+      <summary>Initializes a new instance of the class.</summary>
+      <param name="text">The string that should be recognized.</param>
+      <param name="dataType">Describes the kind of text that is being passed to the recognizer. The currently available kinds are "one paragraph at a time" or "one cell at a
+time" (such as in Excel).</param>
+      <param name="localeID">The per-paragraph language identifier for the string that is being passed in. It is always equal to the locale identifier or language of the host
+application. Applications that do not use per-item LocaleID will pass in 0 (zero).</param>
+      <param name="appName">A string that represents the name (ProgID) of the calling application.</param>
+      <param name="tokenListObj">A COM object (to be released via Marshal.ReleaseComObject) providing tokenized representation of Text parameter. Strings, punctuation, and white
+space are broken down into actual words for use by the recognizer. This enables streams of tokens to be passed to the recognizer in addition to raw text.</param>
+      <param name="commitProc">A pointer to the callback procedure that should be called if Text is recognized as smart-tag actionable.</param>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagRecognizeEventArgs.AppName">
+      <summary>A string that represents the name (ProgID) of the calling application.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagRecognizeEventArgs.CommitProc">
+      <summary>A pointer to the callback procedure that should be called if Text is recognized as smart-tag actionable.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagRecognizeEventArgs.DataType">
+      <summary>Describes the kind of text that is being passed to the recognizer. The currently available kinds are "one paragraph at a time" or "one cell at a
+time" (such as in Excel).</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagRecognizeEventArgs.LocaleID">
+      <summary>The per-paragraph language identifier for the string that is being passed in. It is always equal to the locale identifier or language of the host
+application. Applications that do not use per-item LocaleID will pass in 0 (zero).</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagRecognizeEventArgs.Text">
+      <summary>The string that should be recognized.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagRecognizeEventArgs.TokenListObj">
+      <summary>A COM object (to be released via Marshal.ReleaseComObject) providing tokenized representation of Text parameter. Strings, punctuation, and white
+space are broken down into actual words for use by the recognizer. This enables streams of tokens to be passed to the recognizer in addition to raw text.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagRecognizerImpl.#ctor(System.Type)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagRecognizerImpl.Dispose">
+      <summary>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</summary>
+    </member>
+    <member name="M:AddinExpress.SmartTag.ADXSmartTagRecognizerImpl.Register(System.Type)">
+      <summary>This member supports the Add-in Express infrastructure and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.ADXSmartTagRecognizerImpl.SmartTagModule">
+      <summary>An instance of the Smart Tag module.</summary>
+    </member>
+    <member name="P:AddinExpress.SmartTag.XPThemes.Enable">
+      <summary>Enables the use of XP themes and returns a new instance of the class.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXClickOnceAction_EventHandler">
+      <summary>Represents the method that handles the ADXClickOnceModule.OnClickOnceAction event.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXClickOnceUI_EventHandler">
+      <summary>Represents the method that handles the ADXClickOnceModule.OnShowClickOnceCustomUI event.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXError_EventHandler">
+      <summary>Represents the method that handles the ADXSmartTagModule.OnError event.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagAction_EventHandler">
+      <summary>Represents the method that handles the ADXSmartTagAction.Click event.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagCommitProc_EventHandler">
+      <summary>Represents the method that handles the ADXSmartTag.Recognize event.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagInitialize_EventHandler">
+      <summary>Represents the method that handles the ADXSmartTagModule.RecognizerInitialize event.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagPropertyPage_EventHandler">
+      <summary>Represents the method that handles the ADXSmartTag.PropertyPage event.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagRecognize_EventHandler">
+      <summary>Represents the method that handles the ADXSmartTag.Recognize event.</summary>
+    </member>
+    <member name="T:AddinExpress.SmartTag.ADXSmartTagRecognized_EventHandler">
+      <summary>Represents the method that handles the ADXSmartTag.PropertyPage event.</summary>
+    </member>
+  </members>
+</doc>

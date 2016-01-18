@@ -1,0 +1,102 @@
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\JavaScript\JSRunner.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\JavaScript\citeproc.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\JavaScript\JSON.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\JavaScript\Sys.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\JavaScript\xmldom.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\licence.txt
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\citeproc.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\JSON.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Sys.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\xmldom.js
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Sample Files\harvard1.csl
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Sample Files\b4w.bib
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Sample Files\chicago-annotated-bibliography.csl
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Sample Files\BigFile.bib
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Sample Files\Docear.bib
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Sample Files\Mendeley 1.bib
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Sample Files\Mendeley 2.bib
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Sample Files\Temp.bib
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\docear4word.UnitTest.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\docear4word.UnitTest.pdb
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Docear4Word.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\JavaScriptIntegration.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\nunit.framework.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Interop.Word.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Interop.Office.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Interop.VBIDE.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\Docear4Word.pdb
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\JavaScriptIntegration.pdb
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Release\nunit.framework.xml
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\obj\Release\docear4word.UnitTest.dll
+F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\obj\Release\docear4word.UnitTest.pdb
+F:\src\Visual Studio 2010\Projects\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\mla.csl
+F:\src\Visual Studio 2010\Projects\Docear4Word\docear4word.UnitTest\bin\Release\LinqBridge.dll
+F:\src\Visual Studio 2010\Projects\Docear4Word\docear4word.UnitTest\obj\Release\Docear4Word.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\JavaScript\JSRunner.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\JavaScript\JSON.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\JavaScript\Sys.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\licence.txt
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\JSON.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Sys.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\harvard1.csl
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\b4w.bib
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\chicago-annotated-bibliography.csl
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\mla.csl
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\BigFile.bib
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\Docear.bib
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\Mendeley 1.bib
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\Mendeley 2.bib
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\Temp.bib
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\JavaScript\citeproc.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\JavaScript\xmldom.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\citeproc.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\xmldom.js
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\docear4word.UnitTest.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\docear4word.UnitTest.pdb
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Docear4Word.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\JavaScriptIntegration.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\nunit.framework.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Interop.Word.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Interop.Office.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\LinqBridge.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Interop.VBIDE.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\Docear4Word.pdb
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\JavaScriptIntegration.pdb
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Release\nunit.framework.xml
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\obj\Release\Docear4Word.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\obj\Release\docear4word.UnitTest.dll
+C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\obj\Release\docear4word.UnitTest.pdb
+C:\Docear4Word\docear4word.UnitTest\bin\Release\JavaScript\JSRunner.js
+C:\Docear4Word\docear4word.UnitTest\bin\Release\JavaScript\citeproc.js
+C:\Docear4Word\docear4word.UnitTest\bin\Release\JavaScript\JSON.js
+C:\Docear4Word\docear4word.UnitTest\bin\Release\JavaScript\Sys.js
+C:\Docear4Word\docear4word.UnitTest\bin\Release\JavaScript\xmldom.js
+C:\Docear4Word\docear4word.UnitTest\bin\Release\licence.txt
+C:\Docear4Word\docear4word.UnitTest\bin\Release\citeproc.js
+C:\Docear4Word\docear4word.UnitTest\bin\Release\JSON.js
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Sys.js
+C:\Docear4Word\docear4word.UnitTest\bin\Release\xmldom.js
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\harvard1.csl
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\b4w.bib
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\chicago-annotated-bibliography.csl
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\mla.csl
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\BigFile.bib
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\Docear.bib
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\Mendeley 1.bib
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\Mendeley 2.bib
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Sample Files\Temp.bib
+C:\Docear4Word\docear4word.UnitTest\bin\Release\docear4word.UnitTest.dll
+C:\Docear4Word\docear4word.UnitTest\bin\Release\docear4word.UnitTest.pdb
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Docear4Word.dll
+C:\Docear4Word\docear4word.UnitTest\bin\Release\JavaScriptIntegration.dll
+C:\Docear4Word\docear4word.UnitTest\bin\Release\nunit.framework.dll
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Interop.Word.dll
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Interop.Office.dll
+C:\Docear4Word\docear4word.UnitTest\bin\Release\LinqBridge.dll
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Interop.VBIDE.dll
+C:\Docear4Word\docear4word.UnitTest\bin\Release\Docear4Word.pdb
+C:\Docear4Word\docear4word.UnitTest\bin\Release\JavaScriptIntegration.pdb
+C:\Docear4Word\docear4word.UnitTest\bin\Release\nunit.framework.xml
+C:\Docear4Word\docear4word.UnitTest\obj\Release\Docear4Word.UnitTest.csprojResolveAssemblyReference.cache
+C:\Docear4Word\docear4word.UnitTest\obj\Release\docear4word.UnitTest.dll
+C:\Docear4Word\docear4word.UnitTest\obj\Release\docear4word.UnitTest.pdb

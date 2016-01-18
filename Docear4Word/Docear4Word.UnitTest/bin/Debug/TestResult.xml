@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Allen\Docear4Word\Docear4Word\Docear4Word.UnitTest\bin\Debug\docear4word.UnitTest.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-01-17" time="12:49:58">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8670" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="ALLEN-PC" user="Allen" user-domain="Allen-PC" />
+  <culture-info current-culture="zh-TW" current-uiculture="zh-TW" />
+  <test-suite type="Assembly" name="C:\Users\Allen\Docear4Word\Docear4Word\Docear4Word.UnitTest\bin\Debug\docear4word.UnitTest.dll" executed="True" result="Success" success="True" time="10.668" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="docear4word" executed="True" result="Success" success="True" time="10.658" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="UnitTest" executed="True" result="Success" success="True" time="10.658" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="HelperTest" executed="True" result="Success" success="True" time="10.656" asserts="0">
+                <results>
+                  <test-case name="docear4word.UnitTest.HelperTest.TestDialog" executed="True" result="Success" success="True" time="10.645" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

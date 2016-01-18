@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <assemblyIdentity name="Docear4Word, PublicKeyToken=839f1e8926b2a1ff" />
+  <loaderSettings generateLogFile="true" shadowCopyEnabled="true" privileges="administrator" configFileName="App.config" />
+</configuration>
