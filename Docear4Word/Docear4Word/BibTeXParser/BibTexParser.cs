@@ -130,7 +130,7 @@ namespace Docear4Word.BibTex
 
 			// Consume any trailing comma
 			if (Current.TokenType == TokenType.Comma) Consume();
-
+            
 			Consume(TokenType.ClosingBrace);
 
 			//Console.WriteLine("@string{{{0} = \"{1}\"}}", entryName, entryValue);
@@ -178,9 +178,11 @@ namespace Docear4Word.BibTex
 			Consume(TokenType.Equals);
 
 			string value = null;
-
+            Token LastToken;
 			while(true)
 			{
+                LastToken = Current;
+
 				switch (Current.TokenType)
 				{
 					case TokenType.QuotedString:
@@ -203,8 +205,19 @@ namespace Docear4Word.BibTex
 					default:
 						throw new NotImplementedException();
 				}
+                // [Allen] Check the invalid token like:
+                // *************************
+                // owner = {Norman}   # LastToken.TokenType == TokenType.BracedString
+                // timestamp = {2012-07-19} # Current.TokenType == TokenType.Text
+                // *************************
+                if (LastToken.TokenType == TokenType.BracedString &&
+                    Current.TokenType == TokenType.Text )
+                {
+                    throw new TemplateParseException("Unexpected token: " + LastToken.TokenType + ". Was expecting: '" + LastToken.Data + ",'", LastToken.Line, LastToken.Column);
+                }
 
 				if (Current.TokenType != TokenType.Hash) break;
+
 				Consume();
 			} 
 

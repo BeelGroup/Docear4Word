@@ -18,7 +18,7 @@ namespace Docear4Word
 			{
 				var text = LoadFile(filename);
 
-				var parser = new BibTexParser(new BibTexLexer(text));
+                BibTexParser parser = new BibTexParser(new BibTexLexer(text));
 
 				var result = parser.Parse();
 

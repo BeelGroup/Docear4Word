@@ -355,13 +355,39 @@ namespace Docear4Word.BibTex
 				case '%':
 					ConsumeLine(true);
 					goto ReadAgain;
+                /*
+                case '{':
+                    braceLevel++;
+                    Consume();
 
+                    if (braceLevel == 1) return CreateToken(TokenType.OpeningBrace);
+
+                    var result = ReadBracedString();
+                    Consume();
+                    return result;
+
+                case '}':
+                    braceLevel--;
+                    Consume();
+                    if (braceLevel == 0) LeaveMode();
+                    return CreateToken(TokenType.ClosingBrace);
+                
+                case '{':
+                    Consume();
+                    return CreateToken(TokenType.OpeningBrace);
+
+                case '}':
+                    Consume();
+                    return CreateToken(TokenType.ClosingBrace);
+                */
 				default:
 					if (Char.IsLetter(ch) || ch == '_')
 					{
 						return ReadText();
 					}
-// Ignore anything not recognized
+// Ignore anything not recognized. 
+                    // [Allen] However, this measure cannot detect invalidate characters. 
+                    // We have to add '{' or '}' case to detect those.
 					Consume();
 					goto ReadAgain;
 			}

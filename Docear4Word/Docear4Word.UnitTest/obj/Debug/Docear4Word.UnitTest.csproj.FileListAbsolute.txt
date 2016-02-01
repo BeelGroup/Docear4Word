@@ -32,39 +32,3 @@ F:\src\Visual Studio 2010\Projects\docear4word\docear4word.UnitTest\bin\Debug\Ja
 F:\src\Visual Studio 2010\Projects\Docear4Word\docear4word.UnitTest\bin\Debug\Sample Files\mla.csl
 F:\src\Visual Studio 2010\Projects\Docear4Word\docear4word.UnitTest\bin\Debug\LinqBridge.dll
 F:\src\Visual Studio 2010\Projects\Docear4Word\docear4word.UnitTest\obj\Debug\Docear4Word.UnitTest.csprojResolveAssemblyReference.cache
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\JavaScript\JSRunner.js
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\JavaScript\citeproc.js
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\JavaScript\JSON.js
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\JavaScript\Sys.js
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\JavaScript\xmldom.js
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\licence.txt
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\citeproc.js
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\JSON.js
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Sys.js
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\xmldom.js
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Sample Files\harvard1.csl
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Sample Files\b4w.bib
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Sample Files\chicago-annotated-bibliography.csl
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Sample Files\mla.csl
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Sample Files\BigFile.bib
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Sample Files\Docear.bib
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Sample Files\Mendeley 1.bib
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Sample Files\Mendeley 2.bib
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Sample Files\Temp.bib
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\docear4word.UnitTest.dll
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\docear4word.UnitTest.pdb
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Docear4Word.dll
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\JavaScriptIntegration.dll
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\nunit.framework.dll
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Interop.Word.dll
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Interop.Office.dll
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\LinqBridge.dll
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Interop.VBIDE.dll
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\Docear4Word.pdb
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\JavaScriptIntegration.pdb
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\nunit.framework.xml
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\obj\Debug\Docear4Word.UnitTest.csprojResolveAssemblyReference.cache
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\obj\Debug\docear4word.UnitTest.dll
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\obj\Debug\docear4word.UnitTest.pdb
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\AddinExpress.MSO.2005.dll
-C:\Users\Allen\Docear4Word\Docear4Word\docear4word.UnitTest\bin\Debug\AddinExpress.MSO.2005.xml
