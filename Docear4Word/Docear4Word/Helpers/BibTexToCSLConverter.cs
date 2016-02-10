@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 
 using Docear4Word.BibTex;
+using System.Windows.Forms;
 
 namespace Docear4Word
 {
@@ -264,7 +265,7 @@ namespace Docear4Word
 
 				var pagesTag = ExtractTag(BibTexNames.Pages);
 				if (pagesTag == null || string.IsNullOrEmpty(pagesTag.Display)) return;
-
+                
 				var parser = new PageRangeParser(pagesTag.Display, item.NumberOfPages);
 				if (parser.Page == "-") return;
 //Debug.WriteLine(parser.ToString());

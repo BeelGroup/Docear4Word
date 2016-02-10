@@ -166,7 +166,7 @@ namespace Docear4Word
 				if (citeProc == null)
 				{
 					var styleToUse = style ?? mainController.DefaultStyle;
-
+                    
 					// Duff is duff - no use retrying
 					if (styleToUse == duffStyleInfo)
 					{
@@ -176,10 +176,14 @@ namespace Docear4Word
 					try
 					{
 						citeProc = new CiteProcRunner(styleToUse, GetDatabase);
+                        
 						duffStyleInfo = null;
 					}
-					catch
+					catch(Exception e)
 					{
+                        MessageBox.Show(e.Message + System.Environment.NewLine +
+                            "Source:" + e.Source + System.Environment.NewLine +
+                            "Stack:" + e.StackTrace);
 						citeProc = null;
 						duffStyleInfo = styleToUse;
 					}
@@ -219,9 +223,8 @@ namespace Docear4Word
 			var insertionEntryList = new List<InsertionEntry>();
 
 			try
-			{
+			{                
 				isUpdating = true;
-
 				// Is this a standard, non-sequential reference?
 				if (isStandard && !isSequence)
 				{
@@ -277,11 +280,15 @@ namespace Docear4Word
 							insertionEntryList.Add(new InlineCitationInsertionEntry(CreateInlineCitation(authorEntries)));
 						}
 					}
-				}
+				}                
 
 				// Perform the insertion
 				InsertItemsList(insertionEntryList);
 			}
+            catch (Exception e)
+            {
+                MessageBox.Show("Exception: " + e.Message);
+            }
 			finally
 			{
 				isUpdating = false;
@@ -409,9 +416,9 @@ namespace Docear4Word
 			// (CitationInserter.UpdateCitationsFromDatabase calls here but this is always within a Refresh which means a brand new CiteProc anyway
 			// and so multiple resets here are not a problem because the raw cache would be empty anyway)
 			CiteProc.ResetProcessorState();
-
+            
 			var result = new JSInlineCitation(CiteProc);
-
+            
 			if (idToUse != null)
 			{
 				result.CitationID = idToUse;
@@ -422,13 +429,13 @@ namespace Docear4Word
 			foreach(var itemSource in itemSources)
 			{
 				var inlineCitationItem = CiteProc.CreateJSInlineCitationItem(itemSource);
-
+                
 				result.CitationItems.Add(inlineCitationItem);
 			}
-
+            
 			// We store this before Citeproc gets hold of it!
 			result.FieldCodeJSON = CiteProc.ToJSON(result.JSObject, JSONWhitespace).Replace('\n', '\v') + FieldCodeSeparator;
-
+            
 			return result;
 		}
 

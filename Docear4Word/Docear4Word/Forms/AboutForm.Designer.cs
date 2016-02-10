@@ -538,6 +538,7 @@
             // AboutForm
             // 
             this.AcceptButton = this.btnClose;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.CancelButton = this.btnClose;
             this.ClientSize = new System.Drawing.Size(680, 468);
             this.Controls.Add(this.panel1);

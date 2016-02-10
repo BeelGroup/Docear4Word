@@ -8,6 +8,7 @@ using Docear4Word.Annotations;
 using Docear4Word.BibTex;
 
 using Word;
+using System.Windows.Forms;
 
 namespace Docear4Word
 {
@@ -32,7 +33,7 @@ namespace Docear4Word
 			var jsonScript = File.ReadAllText(Path.Combine(FolderHelper.ApplicationRootDirectory, @"JavaScript\JSON.js"));
 			var xmlDomScript = File.ReadAllText(Path.Combine(FolderHelper.ApplicationRootDirectory, @"JavaScript\xmldom.js"));
 			var citeProcScript = File.ReadAllText(Path.Combine(FolderHelper.ApplicationRootDirectory, @"JavaScript\citeproc.js"));
-			var sysScript = File.ReadAllText(Path.Combine(FolderHelper.ApplicationRootDirectory, @"JavaScript\sys.js"));
+			var sysScript = File.ReadAllText(Path.Combine(FolderHelper.ApplicationRootDirectory, @"JavaScript\Sys.js"));
 
 			MergedScript = BuildScript(jsonScript, xmlDomScript, citeProcScript, sysScript);
 		}
@@ -43,10 +44,12 @@ namespace Docear4Word
 		readonly object engine;
 
 		CiteProcRunner(): base(MergedScript)
-		{
+		{            
 			if (ProcessorVersion == null)
 			{
-				ProcessorVersion = Call("getCSLProcessorVersion").ToString();
+                object obj = Call("getCSLProcessorVersion");
+                if(obj != null)
+                    ProcessorVersion = obj.ToString();				
 			}
 		}
 
@@ -57,7 +60,7 @@ namespace Docear4Word
 
 			try
 			{
-				engine = Call(CreateEngineCommand, this.style.GetXml());
+				engine = Call(CreateEngineCommand, this.style.GetXml());                
 				if (engine == null) throw new InvalidOperationException();
 			}
 			catch
@@ -211,13 +214,14 @@ namespace Docear4Word
 				entryName = id.Substring(0, hashIndex);
 				pageNumberOverride = id.Substring(hashIndex + 1);
 			}
-
+            
 			var entry = databaseProvider()[entryName];
+            
 			if (entry == null)
 			{
 				throw new InvalidOperationException(String.Format("Cannot find item named '{0}' in BibTex database", entryName));
 			}
-
+            
 			return new EntryAndPagePair(entry, pageNumberOverride);
 		}
 
@@ -235,11 +239,13 @@ namespace Docear4Word
 		JSRawCitationItem FetchOrCreateJSRawCitationItem(string id)
 		{
 			JSRawCitationItem result;
-
+            
 			if (!jsRawCitationItemCache.TryGetValue(id, out result))
 			{
-				result = new BibTexToCSLConverter(this).CreateJSRawCitationItem(CreateEntryAndPagePairByID(id));
-
+                EntryAndPagePair thePair = CreateEntryAndPagePairByID(id);
+                
+                result = new BibTexToCSLConverter(this).CreateJSRawCitationItem(thePair);
+                
 				jsRawCitationItemCache[id] = result;
 			}
 
@@ -270,7 +276,7 @@ namespace Docear4Word
 		// to CiteProc - Edit/refresh/Reuse however will have had the additional items in there
 		// but we only need to get the original JSON information from the cache.
 		public JSInlineCitationItem CreateJSInlineCitationItem(EntryAndPagePair itemSource)
-		{
+		{            
 			return new JSInlineCitationItem(this)
 			       	{
 			       		ID = itemSource.Entry.Name, // Note no '#'!!

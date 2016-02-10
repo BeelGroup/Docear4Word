@@ -5,7 +5,7 @@ namespace Docear4Word
 {
 	public class PageRangeParser
 	{
-		static readonly Regex Parser = new Regex(@"(\d+)(?:\s*[-–]{1,2}\s*(\d+)\s*(?:\(\d+\))?)?");
+        static readonly Regex Parser = new Regex(@"(\d+)(?:\s*[-¡V]{1,2}\s*(\d+)\s*(?:\(\d+\))?)?");
 
 		readonly string originalPages;
 		readonly string originalNumPages;

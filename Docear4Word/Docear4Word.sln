@@ -6,19 +6,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docear4Word.UnitTest", "doc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Applications", "Test Applications", "{F2FEB722-D8F9-4940-88A1-909DDD8BF7C5}"
 EndProject
-Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "WINWORD", "C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE", "{EC7276F6-90F7-40BF-9D5B-29CD65A62785}"
-	ProjectSection(DebuggerProjectSystem) = preProject
-		PortSupplier = 00000000-0000-0000-0000-000000000000
-		Executable = C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE
-		RemoteMachine = BEAST
-		StartingDirectory = C:\Program Files (x86)\Microsoft Office\Office12
-		Environment = ¹w³]
-		LaunchingEngine = 5fff7536-0c87-462d-8fd2-7971d948e6dc
-		UseLegacyDebugEngines = No
-		LaunchSQLEngine = No
-		AttachLaunchAction = No
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docear4Word", "docear4word\Docear4Word.csproj", "{A7FBE7D7-DB43-4793-8A69-D5A15B7DBAC5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptIntegration", "JavaScriptIntegration\JavaScriptIntegration.csproj", "{36B24807-AA25-4CC8-9956-B6E8D05A4E7E}"
@@ -47,12 +34,6 @@ Global
 		{7E11DF2C-4472-4B9A-9044-41E6D89525DC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{7E11DF2C-4472-4B9A-9044-41E6D89525DC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{7E11DF2C-4472-4B9A-9044-41E6D89525DC}.Release|x86.ActiveCfg = Release|Any CPU
-		{EC7276F6-90F7-40BF-9D5B-29CD65A62785}.Debug|Any CPU.ActiveCfg = Debug
-		{EC7276F6-90F7-40BF-9D5B-29CD65A62785}.Debug|Mixed Platforms.ActiveCfg = Debug
-		{EC7276F6-90F7-40BF-9D5B-29CD65A62785}.Debug|x86.ActiveCfg = Debug
-		{EC7276F6-90F7-40BF-9D5B-29CD65A62785}.Release|Any CPU.ActiveCfg = Debug
-		{EC7276F6-90F7-40BF-9D5B-29CD65A62785}.Release|Mixed Platforms.ActiveCfg = Debug
-		{EC7276F6-90F7-40BF-9D5B-29CD65A62785}.Release|x86.ActiveCfg = Debug
 		{A7FBE7D7-DB43-4793-8A69-D5A15B7DBAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A7FBE7D7-DB43-4793-8A69-D5A15B7DBAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7FBE7D7-DB43-4793-8A69-D5A15B7DBAC5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -90,6 +71,5 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7E11DF2C-4472-4B9A-9044-41E6D89525DC} = {5BB7659D-B404-4D74-BCFE-16BE37E1D54D}
-		{EC7276F6-90F7-40BF-9D5B-29CD65A62785} = {F2FEB722-D8F9-4940-88A1-909DDD8BF7C5}
 	EndGlobalSection
 EndGlobal

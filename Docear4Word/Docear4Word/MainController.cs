@@ -129,12 +129,13 @@ namespace Docear4Word
 				return;
 			}
 
-			var currentDatabase = currentDocumentController.GetDatabase();
+			BibTexDatabase currentDatabase = currentDocumentController.GetDatabase();
 			if (currentDatabase == null)
 			{
-				ShowNoDatabaseMessage();
+				ShowNoDatabaseMessage();                
 				return;
 			}
+            
 
 			var addReferencesForm = new AddReferencesForm();				
 
@@ -151,8 +152,10 @@ namespace Docear4Word
 			var isSequence = (Control.ModifierKeys & Keys.Control) != 0;
 			var isLineSequence = isSequence && (Control.ModifierKeys & Keys.Shift) != 0;
 
-			var entryAndPagePairs = addReferencesForm.GetSelectedReferences();
+			var entryAndPagePairs = addReferencesForm.GetSelectedReferences();            
+
 			if (entryAndPagePairs.Count == 0) return;
+            
 
 			// Did the user change the database?
 			if (addReferencesForm.Database != currentDatabase)
@@ -188,32 +191,6 @@ namespace Docear4Word
 				MessageBox.Show("The file \"" + filename + "\"\r\ncould not be found.\r\n\r\nPlease check Settings.", "Docear4Word: Missing BibTex database", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 			}
 		}
-
-/*
-		public void DoAddOrEditReference()
-		{
-			if (!CurrentDocumentControllerIsReady) return;
-
-			using (var selectionManager = new SelectionManager(currentDocumentController))
-			{
-				addinModule.UpdateState(selectionManager);
-
-				var noFieldsSelected = selectionManager.IsNoFieldsSelected;
-				var canAdd = noFieldsSelected;
-				var canEdit = selectionManager.IsAtOrBeforeSingleCitation;
-				Debug.Assert(!(canAdd && canEdit));
-
-				if (canEdit)
-				{
-					DoEditReference();
-				}
-				else if (canAdd)
-				{
-					DoAddReference();
-				}
-			}
-		}
-*/
 
 		public void DoEditReference()
     	{
