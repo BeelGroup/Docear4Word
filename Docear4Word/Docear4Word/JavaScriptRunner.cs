@@ -13,8 +13,10 @@ namespace Docear4Word
     [ComVisible(true)]
     public abstract class JavaScriptRunner: IJSContext, IDisposable
     {
-        const string HtmlPrefix = @"<html><head><script type='text/javascript'>";
+        const string HtmlPrefix = @"<!DOCTYPE html><html><head><meta charset='utf-8'><script>";
+        //const string HtmlPrefix = @"<script>";
         const string HtmlSuffix = @"</script></head><body></body></html>";
+        //const string HtmlSuffix = @"</script>";
 
     	const string LengthProperty = "length";
     	const string CreateEmptyJSArrayHelperMethod = "createEmptyJSArray";
@@ -24,10 +26,10 @@ namespace Docear4Word
     	const string DumpJSObjectHelperMethod = "DumpJSObject";
     	const string CreateJSObjectFromJSONFunction = "createJSObjectFromJSON";
 
-    	readonly WebBrowser wb;
-        readonly HtmlDocument doc;
-
-		protected static string BuildScript(params string[] scripts)
+    	WebBrowser wb;
+        HtmlDocument doc;
+        
+		public static string BuildScript(params string[] scripts)
 		{
 			var sb = new StringBuilder();
 
@@ -52,16 +54,19 @@ namespace Docear4Word
 
     	protected JavaScriptRunner(string script)
         {
-        	wb = new WebBrowser
-        	     	{
-        	     		DocumentText = script,
-						ScriptErrorsSuppressed = true,
-						ObjectForScripting = this
-        	     	};
+            SetupJavascriptInDoc(script);
+        }
 
-        	doc = wb.Document;
+        protected void SetupJavascriptInDoc(string script) {
+            wb = new WebBrowser
+            {
+                DocumentText = script,
+                ScriptErrorsSuppressed = true,
+                ObjectForScripting = this
+            };
 
-        	EnsureReady();
+            EnsureReady();
+            doc = wb.Document;
         }
 
     	protected JavaScriptRunner(params string[] scripts): this(BuildScript(scripts))
@@ -90,7 +95,8 @@ namespace Docear4Word
 
         public object Call(string functionName, params object[] args)
         {
-        	return doc.InvokeScript(functionName, args);
+            object result = doc.InvokeScript(functionName, args);
+            return (result==null)?null:result;
         }
 
         public object Eval(string script)

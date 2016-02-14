@@ -3,3 +3,8 @@ F:\src\Visual Studio 2010\Projects\Docear4Word\JavaScriptIntegration\bin\Debug\J
 F:\src\Visual Studio 2010\Projects\Docear4Word\JavaScriptIntegration\obj\Debug\JavaScriptIntegration.dll
 F:\src\Visual Studio 2010\Projects\Docear4Word\JavaScriptIntegration\obj\Debug\JavaScriptIntegration.pdb
 F:\src\Visual Studio 2010\Projects\Docear4Word\JavaScriptIntegration\obj\Debug\JavaScriptIntegration.csprojResolveAssemblyReference.cache
+C:\Users\Allen\Docear4Word\Docear4Word\JavaScriptIntegration\bin\Debug\JavaScriptIntegration.dll
+C:\Users\Allen\Docear4Word\Docear4Word\JavaScriptIntegration\bin\Debug\JavaScriptIntegration.pdb
+C:\Users\Allen\Docear4Word\Docear4Word\JavaScriptIntegration\obj\Debug\JavaScriptIntegration.dll
+C:\Users\Allen\Docear4Word\Docear4Word\JavaScriptIntegration\obj\Debug\JavaScriptIntegration.pdb
+C:\Users\Allen\Docear4Word\Docear4Word\JavaScriptIntegration\obj\Debug\JavaScriptIntegration.csprojResolveAssemblyReference.cache
